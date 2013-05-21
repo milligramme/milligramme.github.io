@@ -1,2 +1,10 @@
-name: Your New Jekyll Site
+name: milligramme.github.com
+timezone: Asia/Tokyo
+safe: true
+lsi: false
 pygments: true
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
