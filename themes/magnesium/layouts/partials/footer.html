@@ -1,0 +1,16 @@
+  
+    </div>
+  </div>
+
+  <script src="/index.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/search.js" type="text/javascript" charset="utf-8"></script>
+  <footer>
+    {{ partial "social" .}}
+    {{ if ne (getenv "HUGO_ENV") "DEV" }}
+      {{ partial "google_analytics" . }}
+    {{ end }}
+    {{ partial "copyright" . }}
+  </footer>
+  {{ partial "google_adsence_page_adv" . }}
+</body>
+</html>

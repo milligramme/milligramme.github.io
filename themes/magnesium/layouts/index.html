@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+
+<div class="header">
+  <h1>
+    {{ .Title }}
+    {{ if .RSSlink }}
+      <a href="{{ .RSSlink }}"><i class="fa fa-rss fa-fw"></i></a>
+    {{ end }}
+  </h1>
+  <h2>{{ .Site.Params.subtitle }}</h2>
+</div>
+
+<div class="content pure-g">
+  <div id="content-main" class="pure-u-1 pure-u-md-4-5">
+  {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+  {{ partial "pagination" . }}
+  </div>
+  <div id="content-side" class="pure-u-1 pure-u-md-1-5">
+    {{ partial "google_adsence_responsive_adv" . }}
+  </div>
+</div>
+
+{{ partial "footer" . }}

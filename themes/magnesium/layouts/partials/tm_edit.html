@@ -1,0 +1,5 @@
+{{ if .Site.Params.workingdir }}
+  <a class="post-taxonomy-topic" href="txmt://open/?url=file://{{ .Site.Params.workingdir }}/{{ .File.Path }}&line=6">
+    <i class="fa fa-cogs fa-fw"></i>
+  </a>
+{{ end }}

@@ -1,0 +1,46 @@
+<head>
+  <meta charset="utf-8">
+  <meta content='IE=edge;chrome=1' http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' name='viewport'>
+  <meta content='milligramme.github.io' name='apple-mobile-web-app-title'>
+
+  <title>{{ .Site.Title }} | magnesium </title>
+
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@github" />
+  <meta name="twitter:title" content="{{ .Site.Title }}" />
+  <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+  <!-- <meta name="twitter:image:src" content=""  /> -->
+
+
+  <!-- Pure -->
+  {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/" }}
+  <link rel="stylesheet" href="{{ $purecss }}pure-min.css">
+  <link rel="stylesheet" href="{{ $purecss }}grids-responsive-min.css">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/magnesium.css">
+  <link rel="stylesheet" href="/css/search.css">
+
+  {{ with .Site.Params.highlightjs }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/{{ . }}.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  {{ end }}
+
+
+  <link href='/favicon.png' rel='icon' type='image/png'>
+  <link href='/favicon.png' rel='shortcut icon' type='image/png'>
+  <link href='/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed'>
+  
+</head>

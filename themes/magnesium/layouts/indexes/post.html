@@ -1,0 +1,22 @@
+{{ partial "header" . }}
+
+<div class="header">
+  <h1>
+    {{ .Title }}
+    {{ if .RSSlink }}
+      <a href="{{ .RSSlink }}"><i class="fa fa-rss fa-fw"></i></a>
+    {{ end }}
+  </h1>
+  
+</div>
+<div class="content">
+  {{ range .Data.Pages.GroupByDate "2006" }}
+  <h2>{{ .Key }}</h2>
+  <ul class="pure-menu-list">
+  {{ range .Pages }}
+    {{ .Render "li" }}
+  {{ end }}
+  </ul>
+  {{ end }}
+</div>
+{{ partial "footer" . }}
