@@ -173,7 +173,7 @@ body > footer {
 }
 
 #sns {
-  padding:1em 5em;
+  padding:1em .5em;
 }
 
 #sns div {
@@ -192,19 +192,23 @@ body > footer {
   .content {
     padding: 0 2em;
   }
-    .header h1 {
-      color: hsl(180, 10%, 30%);
-      margin: 1em 0 .2em;
-      font-size: 2em;
-      font-weight: 700;
-    }
-    .header h2 {
-      color: hsl(0, 0%, 80%);
-      font-weight: 300;
-      margin-top: 0;
-    }
-    #layout {
-      left: 0;
-    }
+  .header h1 {
+    color: hsl(180, 10%, 30%);
+    margin: 1em 0 .2em;
+    font-size: 2em;
+    font-weight: 700;
   }
+  .header h2 {
+    color: hsl(0, 0%, 80%);
+    font-weight: 300;
+    margin-top: 0;
+  }
+  #layout {
+    left: 0;
+  }
+  #sns {
+    padding:1em 5em;
+  }
+  
+}
 
