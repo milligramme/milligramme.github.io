@@ -4,7 +4,11 @@
   <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' name='viewport'>
   <meta content='milligramme.github.io' name='apple-mobile-web-app-title'>
 
-  <title>{{ .Site.Title }} | magnesium </title>
+  <title>
+    {{ if .IsHome }}{{ .Title }}
+    {{ else }}{{ .Title }} &middot; {{ .Site.Title }}
+    {{ end }}
+  </title>
 
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="description" content="{{ .Site.Params.description }}">
