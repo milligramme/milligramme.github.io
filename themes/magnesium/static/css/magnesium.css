@@ -87,6 +87,10 @@ blockquote {
   background: transparent;
   text-decoration: none;
 }
+
+#search {
+  padding-left: 5px;
+}
 input#q {
   display: inline-block;
   font-family: FontAwesome;
