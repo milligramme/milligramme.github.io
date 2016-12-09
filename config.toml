@@ -22,6 +22,11 @@ hasCJKLanguage = true
   # CSS name for highlight.js https://highlightjs.org/static/demo/
   highlightjs = "atom-one-light"
   dateFormat = "2006-01-02"
+  
+  # Set local working dir to edit with TextMate
+  # This work under Development Mode
+  workingdir = "~/play/milligramme.hugo/content"
+  
 
 [params.social]
   twitter = "milligramme"

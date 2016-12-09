@@ -2,10 +2,11 @@
 
 [Hugo](//gohugo.io) theme
 
-##
+## Features
 
-- PureCSS based
-- FontAwesome
+- [Pure](http://purecss.io/) based
+- [Font Awesome](http://fontawesome.io/) supported
+- [highlight\.js](https://highlightjs.org/) code highlight
 
 
 ## Installation
@@ -93,8 +94,18 @@ hasCJKLanguage = true
   pinboard = "milligramme"
   slideshare = "GoKoide"
   speakerdeck = "milligramme"
-  
+```
 
+
+## Shortcodes
+
+### Image
+
+```
+{{% img src="images/image.jpg" %}}
+{{% img src="images/image.jpg" class="right" %}}
+{{% img src="images/image.jpg" class="left" %}}
+{{% img src="images/image.jpg" caption="Referenced from wikipedia." href="https://en.wikipedia.org/wiki/Lorem_ipsum" %}}
 ```
 
 
@@ -105,16 +116,7 @@ $ cd themes/magnesium/exampleSite
 $ hugo server -D -w -t=../..
 ```
 
-# Shortcodes
 
-## Image
-
-```
-{{% img src="images/image.jpg" %}}
-{{% img src="images/image.jpg" class="right" %}}
-{{% img src="images/image.jpg" class="left" %}}
-{{% img src="images/image.jpg" caption="Referenced from wikipedia." href="https://en.wikipedia.org/wiki/Lorem_ipsum" %}}
-```
 
 ## Development mode
 
@@ -128,6 +130,6 @@ This mode is
 
 * Not show Google Analytics tags.
 * Show `IsDraft`.
-* Show `WordCount`.
+* Show `Edit` button for TextMate ( `.Site.Params.workingdir` is required )
 
 And set `{{ if ne (getenv "HUGO_ENV") "DEV" }} Set elements here. {{ end }}` if you want to place only in a production environment.
