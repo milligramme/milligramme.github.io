@@ -4,7 +4,7 @@ tags = [
   "pdf",
   "acrobat"
 ]
-draft = true
+draft = false
 outdated = false
 title = "diff-pdfでpdf比較"
 description = ""

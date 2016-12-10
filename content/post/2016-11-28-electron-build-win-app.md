@@ -9,7 +9,7 @@ draft = false
 
 +++
 
-pure cssベースのhugo theme
+pure cssベースのhugo themeを作っている
 
 ### 参考
 

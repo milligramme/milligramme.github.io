@@ -5,7 +5,7 @@ title = "hugo themeに検索機能の追加"
 description = ""
 tags = ["hugo","javascript","json"
 ]
-draft = true
+draft = false
 
 +++
 
