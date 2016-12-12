@@ -48,3 +48,30 @@ __END__
 
 ```
 
+出力
+
+```rb
+{"document_info"=>
+  {"name"=>"test.txt", "encodign"=>"utf-8", "linefeed"=>"unix"},
+ "data"=>
+  [{"line_no"=>1, "content"=>"Lorem ipsum"},
+   {"line_no"=>2, "content"=>"sed do eiusmod"},
+   {"line_no"=>3, "content"=>"Ut enim veniam"},
+   {"line_no"=>4, "content"=>"exercitation ullamco"},
+   {"line_no"=>5, "content"=>"Duis aute nulla"}]}
+
+{"name"=>"test.txt", "encodign"=>"utf-8", "linefeed"=>"unix"}
+nil
+
+
+{:document_info=>{:name=>"test.txt", :encodign=>"utf-8", :linefeed=>"unix"},
+ :data=>
+  [{:line_no=>1, :content=>"Lorem ipsum"},
+   {:line_no=>2, :content=>"sed do eiusmod"},
+   {:line_no=>3, :content=>"Ut enim veniam"},
+   {:line_no=>4, :content=>"exercitation ullamco"},
+   {:line_no=>5, :content=>"Duis aute nulla"}]}
+
+nil
+{:name=>"test.txt", :encodign=>"utf-8", :linefeed=>"unix"}
+```

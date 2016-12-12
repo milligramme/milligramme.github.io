@@ -1,7 +1,7 @@
 +++
 title = "TextMateのアップデート時にhtmloutput.rbにマジックコメントを追加する"
 date = "2014-08-20T00:00:00+09:00"
-tags = ["textmate"]
+tags = ["textmate","ruby"]
 
 outdated = true
 +++

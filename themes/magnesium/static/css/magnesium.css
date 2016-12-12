@@ -37,6 +37,8 @@ blockquote {
   color: hsl(0, 0%, 20%);
   text-align: center;
   padding: 0 .5em;
+  border-bottom: 3px solid #eee;
+  
 }
 .header h1 {
   font-size: 2em;
@@ -69,6 +71,7 @@ blockquote {
   menu
 */
 #brand {
+  font-size: 1em;
   background-color: hsl(20, 10%, 80%);
 }
 #menu,
@@ -105,9 +108,7 @@ input#q {
   meta
 */
 .post-meta {
-  padding: .5em;
-  border-top: 1px solid #eee;
-  border-bottom: 3px solid #eee;
+  padding: 0 .5em 0 0;
 }
 .post-meta a {
   text-decoration: none;
@@ -135,22 +136,22 @@ body > footer {
 /*
   prev next
 */
-.prev-next-post {
+.post-prev-next {
   font-size: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-.prev-next-post .prev {
+.post-prev-next .prev {
   float: left;
   text-align: left;
   overflow: hidden;
 }
-.prev-next-post .next {
+.post-prev-next .next {
   float: right;
   text-align: right;
   overflow: hidden;
 }
-.prev-next-post a {
+.post-prev-next a {
   text-decoration: none;
 }
 
@@ -221,6 +222,11 @@ body > footer {
   }
   #sns {
     padding:1em 5em;
+  }
+  .post-prev-next {
+    font-size: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
   
 }

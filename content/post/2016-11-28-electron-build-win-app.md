@@ -1,15 +1,15 @@
 +++
 date = "2016-11-28T10:12:27+09:00"
 outdated = false
-title = "pure cssベースのhugo theme"
+title = "Pureベースのhugo theme"
 description = ""
-tags = ["css", "hugo","theme"
+tags = ["css", "hugo", "theme"
 ]
 draft = false
 
 +++
 
-pure cssベースのhugo themeを作っている
+[Pure](http://purecss.io/) ベースのhugo themeを作っている
 
 ### 参考
 
