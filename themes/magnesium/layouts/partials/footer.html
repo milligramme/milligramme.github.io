@@ -3,6 +3,7 @@
 
   <script src="/index.js" type="text/javascript" charset="utf-8"></script>
   <script src="/js/search.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/magnesium.js" type="text/javascript" charset="utf-8"></script>
   <footer>
     {{ partial "social" .}}
     {{ if ne (getenv "HUGO_ENV") "DEV" }}
@@ -11,5 +12,12 @@
     {{ partial "copyright" . }}
   </footer>
   {{ partial "google_adsence_page_adv" . }}
+  <a id="rewind" href="javascript:void(0)">
+    <span class="fa fa-stack fa-lg">
+      <i class="fa fa-circle-o fa-stack-2x"></i>
+      <i class="fa fa-hand-o-up fa-stack-1x button-danger"></i>
+    </span>
+  </a>
+  
 </body>
 </html>

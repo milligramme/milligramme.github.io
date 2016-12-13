@@ -167,16 +167,13 @@ h2.summary {
 /*
   body child
 */
-body {
-/*  background-color: yellow;*/
-}
 body > footer {
   background-color: hsl(20, 10%, 90%);
   padding-bottom: 25px;
 }
 #copyrights {
   font-size: .8em;
-  margin: .2em;
+  margin: .2em 80px .2em 0;
   text-align: right;
 }
 
@@ -256,6 +253,22 @@ ul.list li time{
 */
 .draft {
   color: hsl(320, 100%, 50%);
+}
+
+
+#rewind {
+  position: fixed;
+  display: block;
+  margin: 0 auto;
+  width: 45px;
+  height: 45px;
+  right: 15px;
+  bottom: 10px;
+}
+
+a#rewind:hover,
+a#rewind:focus {
+  background-color: transparent;
 }
 
 
