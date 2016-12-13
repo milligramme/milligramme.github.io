@@ -181,7 +181,7 @@ body > footer {
   terms, indexes
 */
 ul.list li {
-  margin: 0.3em 0;
+  margin: .6em 0;
 }
 ul.list li time{
   margin-left: .3em;
