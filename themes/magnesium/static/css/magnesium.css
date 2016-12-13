@@ -1,10 +1,8 @@
 body {
   color: hsl(20, 10%, 20%);
-  margin-top: 40;
 }
-
 a {
-  color: hsl(20, 10%, 40%);
+  color: hsl(20, 10%, 30%);
   text-decoration: none;
 }
 a:hover,
@@ -13,7 +11,7 @@ a:focus {
   background-color: hsl(60, 20%, 80%);
 }
 a:visited {
-  color: hsl(20, 10%, 60%);
+  color: hsl(20, 20%, 50%);
 }
 
 code {
@@ -28,26 +26,37 @@ blockquote {
   padding-left: 1em;
 }
 
+/*base*//*base*//*base*/
+
+#layout {
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 0 10px 10px;
+}
+
+
+
+
 /*
   header
 */
-.header {
-  font-family: 'Slabo 13px', "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+header {
+  font-family: 'Lato', "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
   margin: 0;
   color: hsl(0, 0%, 20%);
-  text-align: center;
   padding: 0 .5em;
   border-bottom: 3px solid #eee;
-  
 }
-.header h1 {
+header > h1 {
   font-size: 2em;
+  text-align: center;
   line-height: 2em;
   font-weight: 700;
   margin: .2em 0;
 }
-.header h2 {
+header > h2 {
   color: hsl(0, 0%, 80%);
+  text-align: center;
   font-weight: 300;
   padding: 0;
   margin-top: 0;
@@ -56,43 +65,57 @@ blockquote {
 /*
   content
 */
-.content {
+#content {
   margin: 0 auto 0 ;
   padding: 1em .5em 0;
   max-width: 960px;
   margin-bottom: 50px;
   line-height: 1.6em;
 }
-.content a {
+#content a {
   text-decoration: underline;
 }
+#content h2 {
+  border-left: 8px solid hsl(320, 40%, 50%);
+  padding-left: 5px;
+}
+
+#content h3 {
+  border-left: 12px solid hsl(320, 40%, 70%);
+  padding-left: 5px;
+}
+
+#content h4 {
+  border-left: 20px solid hsl(320, 40%, 90%);
+  padding-left: 5px;
+}
+
 
 /*
   menu
 */
-#brand {
-  font-size: 1em;
-  background-color: hsl(20, 10%, 80%);
-}
-#menu,
-#search,
-#sns {
-  background-color: hsl(20, 10%, 90%);
-}
 
+#brand {
+  font-size: 2em;
+  background-color: hsl(20, 10%, 80%);
+  padding-bottom: 0;
+}
 #brand .brand {
-  font-family: 'Slabo 13px';
+  font-family: 'Lato','sans-serif';
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: .2em;
   text-align: center;
   text-transform: none;
   background: transparent;
   text-decoration: none;
+  padding-top: 0;
 }
 
 #search {
-  padding-left: 5px;
+  background-color: hsl(20, 10%, 90%);
+  text-align: left;
+  padding: 7px;
 }
 input#q {
   display: inline-block;
@@ -102,35 +125,82 @@ input#q {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#stat {
+  color: hsl(320, 100%, 50%);
+  font-size: .8em;
+}
+.search-results {
+  margin-bottom: 0;
+}
 
+
+#menu {
+  background-color: hsl(20, 10%, 90%);
+}
+
+#sns {
+  background-color: hsl(20, 10%, 90%);
+  padding:1em .5em;
+}
+#sns div {
+  padding: .5em 0;
+}
+
+
+/*
+  article child
+*/
+article > footer {
+  text-align: right;
+  margin-bottom: 4em;
+}
+
+article > .summary {
+  color: hsl(0, 0%, 60%);
+  font-size: .8em;
+  padding: .5em 2em;
+}
+
+h2.summary {
+  text-align: left;
+}
+/*
+  body child
+*/
+body {
+/*  background-color: yellow;*/
+}
+body > footer {
+  background-color: hsl(20, 10%, 90%);
+  padding-bottom: 25px;
+}
+#copyrights {
+  font-size: .8em;
+  margin: .2em;
+  text-align: right;
+}
+
+/*
+  terms, indexes
+*/
+ul.list li {
+  margin: 0.3em 0;
+}
+ul.list li time{
+  margin-left: .3em;
+}
 
 /*
   meta
 */
 .post-meta {
-  padding: 0 .5em 0 0;
+  padding: 0 .5em .5em 0;
+}
+.post-meta div {
+  margin: .5em;
 }
 .post-meta a {
   text-decoration: none;
-}
-
-/*
-  article
-*/
-article > footer {
-  text-align: right;
-}
-article > .summary {
-  color: hsl(0, 0%, 40%);
-  font-size: .8em;
-  background-color: hsl(20, 10%, 95%);
-}
-/*
-  body
-*/
-body > footer {
-  background-color: hsl(20, 10%, 90%);
-  padding-bottom: 25px;
 }
 
 /*
@@ -168,10 +238,10 @@ body > footer {
   color: hsl(20, 10%, 20%);
 }
 
-.search-results {
-  margin-bottom: 0;
-}
 
+/*
+  outdated
+*/
 .outdated {
   background: hsl(320, 100%, 50%) url() repeat scroll top left;
   color: hsl(0, 0%, 100%);
@@ -181,44 +251,35 @@ body > footer {
   content: 'Outdated';
   font-weight: 700;
 }
-
+/*
+  draft
+*/
 .draft {
   color: hsl(320, 100%, 50%);
 }
 
-#sns {
-  padding:1em .5em;
-}
-
-#sns div {
-  padding: .5em 0;
-}
-
-#copyrights {
-  font-size: .8em;
-  margin: .2em;
-  text-align: right;
-}
-
 
 @media (min-width: 48em) {
-  .header,
-  .content {
+  header,
+  #content {
     padding: 0 2em;
   }
-  .header h1 {
+  header h1 {
     color: hsl(180, 10%, 30%);
     margin: 1em 0 .2em;
     font-size: 2em;
     font-weight: 700;
   }
-  .header h2 {
+  header h2 {
     color: hsl(0, 0%, 80%);
     font-weight: 300;
     margin-top: 0;
   }
   #layout {
     left: 0;
+  }
+  #search {
+    text-align: right;
   }
   #sns {
     padding:1em 5em;
