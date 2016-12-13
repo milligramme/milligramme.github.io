@@ -2,9 +2,10 @@
 title = "jsx & underscore.js は全部のメソッドが動くとは限らない"
 date = "2014-07-28T00:00:00+09:00"
 tags = ["extendscript", "underscore.js"]
+outdated = true
 +++
 
-jsx だと `Math.max` `Math.min` が2引数しか扱わないので、配列の最初と最後しかみてないので
+CS5とかの古いExtendScriptだと `Math.max` `Math.min` が2引数しか扱わないので、配列の最初と最後しかみてない。
 
 `_.max` と `_.min` が想定外の結果を返すのを思い出した
 

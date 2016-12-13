@@ -4,7 +4,9 @@ date = "2016-06-16T10:06:00+09:00"
 tags = ["nvm", "nodejs"]
 +++
 
-nvm自体をアップデートして
+放置気味だった node.js環境を更新
+
+## nvm自体をアップデート
 
 ```
 % cd ~/.nvm
@@ -12,6 +14,8 @@ nvm自体をアップデートして
 % nvm --version
 0.29.0
 ```
+
+## v4, v5, v6系をインストール
 
 v4.2.1->v4.4.5に global modulesをインストールしながらインストール
 
@@ -23,9 +27,7 @@ v4.2.1->v4.4.5に global modulesをインストールしながらインストー
 % nvm install v5.11.1 --reinstall-packages-from=5.1.1
 
 % nvm install v6.2.1
-```
 
-```
 % nvm ls
         v0.12.7
          v4.2.1

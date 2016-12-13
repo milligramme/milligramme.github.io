@@ -6,7 +6,7 @@ tags = ["indesign", "extendscript"]
 
 和文だとほとんど使わない、ドロップキャップの `dropcapDetail` の値が謎だったので調べた。
 
-![2016 05 10 Dropcap Detail](/images/2016-05-10-dropcap-detail.png)
+{{% img src="/images/2016-05-10-dropcap-detail.png" %}}
 
 枠の部分を `dropcapDetail` の値で表現している。
 

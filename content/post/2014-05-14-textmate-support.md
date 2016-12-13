@@ -1,12 +1,16 @@
 +++
-title = "textmate-bundle-support"
+title = "TextMateのBundleSupportの内容"
 date = "2014-05-14T00:00:00+09:00"
 tags = ["textmate"]
 +++
 
-Bundle作成時に require する用に一覧してみた
+TextMateの Bundle のヘルパーの内容を確認しておくため一覧してみた。
 
-`ENV["TM_SUPPORT_PATH"] == "~/Library/Application Support/TextMate/Managed/Bundles/Bundle Support.tmbundle/Support/shared"`
+## BundleSupportのパス
+
+```
+ENV["TM_SUPPORT_PATH"] == "~/Library/Application Support/TextMate/Managed/Bundles/Bundle Support.tmbundle/Support/shared"
+```
 
 
 ```

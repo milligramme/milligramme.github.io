@@ -39,34 +39,34 @@ PageItemのメソッドでなく、Documentのメソッドにあって、CS3か�
 
 #### AlignOptions
 
-BOTTOM_EDGES | 下端揃え
-HORIZONTAL_CENTERS | 水平方向中央揃え
-LEFT_EDGES | 左端揃え
-RIGHT_EDGES | 右端揃え
-TOP_EDGES | 上端揃え
-VERTICAL_CENTERS | 垂直方向中央揃え
+    BOTTOM_EDGES | 下端揃え
+    HORIZONTAL_CENTERS | 水平方向中央揃え
+    LEFT_EDGES | 左端揃え
+    RIGHT_EDGES | 右端揃え
+    TOP_EDGES | 上端揃え
+    VERTICAL_CENTERS | 垂直方向中央揃え
 
 
 #### DistributeOptions
 
-BOTTOM_EDGES | 下端揃え
-HORIZONTAL_CENTERS | 水平方向中央揃え
-HORIZONTAL_SPACE | 水平方向に等間隔に分布
-LEFT_EDGES | 左端揃え
-RIGHT_EDGES | 右端揃え
-TOP_EDGES | 上端揃え
-VERTICAL_CENTERS | 垂直方向中央揃え
-VERTICAL_SPACE | 垂直方向に等間隔に分布
+    BOTTOM_EDGES | 下端揃え
+    HORIZONTAL_CENTERS | 水平方向中央揃え
+    HORIZONTAL_SPACE | 水平方向に等間隔に分布
+    LEFT_EDGES | 左端揃え
+    RIGHT_EDGES | 右端揃え
+    TOP_EDGES | 上端揃え
+    VERTICAL_CENTERS | 垂直方向中央揃え
+    VERTICAL_SPACE | 垂直方向に等間隔に分布
 
 
 #### AlignDistributeBounds
 
-ITEM_BOUNDS  |  選択範囲に揃える
-MARGIN_BOUNDS  |  マージンに揃える
-PAGE_BOUNDS  |  ページに揃える
-SPREAD_BOUNDS  |  スプレッドに揃える
+    ITEM_BOUNDS  |  選択範囲に揃える
+    MARGIN_BOUNDS  |  マージンに揃える
+    PAGE_BOUNDS  |  ページに揃える
+    SPREAD_BOUNDS  |  スプレッドに揃える
+    
 
-<br>
 パネルと照合したらだいたい挙動がわかると思う
 
 ![2014 06 24 Align Panel](/images/2014-06-24-align-panel.png)

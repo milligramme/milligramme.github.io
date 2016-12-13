@@ -1,7 +1,7 @@
 +++
 title = "Google翻訳コマンドライン"
 date = "2014-03-19T00:00:00+09:00"
-tags = ["cli"]
+tags = ["cli","google"]
 +++
 
 google翻訳のコマンドライン版をいれた

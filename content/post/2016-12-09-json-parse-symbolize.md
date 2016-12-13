@@ -75,3 +75,6 @@ nil
 nil
 {:name=>"test.txt", :encodign=>"utf-8", :linefeed=>"unix"}
 ```
+
+
+[parse \(JSON\) \- APIdock](http://apidock.com/ruby/JSON/parse)

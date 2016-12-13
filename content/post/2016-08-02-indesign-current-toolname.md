@@ -1,5 +1,5 @@
 +++
-title = "indesign.jsxで現在の選択ツールを返す"
+title = "InDesign.jsxで現在の選択ツールを返す"
 date = "2016-08-02T10:25:00+09:00"
 tags = ["indesign", "extendscript"]
 +++

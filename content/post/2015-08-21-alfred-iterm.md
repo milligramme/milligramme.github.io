@@ -6,11 +6,13 @@ tags = ["alfred", "iterm", "applescript"]
 outdated = true
 +++
 
-Alfred v2.7.2 の仕様変更でTermnalのかわりにiTermを使用していた機能が効かなくなったので修正した
+Alfred v2.7.2 の仕様変更でTerminalのかわりにiTermを使用していた機能が効かなくなったので修正した。
 
-Termnal以外では
+Terminal以外では
 
+```
 Alfred Preferences > General > Terminal / Shell
+```
 
 で
 
@@ -18,7 +20,7 @@ Application: 「Custom」 を選択して、その下のAppleScriptのフィー�
 
 [stuartcryan/custom\-iterm\-applescripts\-for\-alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
 
-のapplescriptをiTermのバージョンに合わせて、ペーストしてあげたらいい
+のapplescriptをiTermのバージョンに合わせて、ペーストしてあげたらいい。
 
-![2015 08 21 Alfred Iterm Integration](/images/2015-08-21-alfred-iterm-integration.png)
+{{% img src="images/2015-08-21-alfred-iterm-integration.png" %}}
 

@@ -1,12 +1,13 @@
 +++
-title = "TextMate2のAvianフォルダの終了"
+title = "TextMate2のAvianフォルダが終了"
 date = "2016-10-12T18:14:00+09:00"
 tags = ["textmate"]
 
 outdated = false 
 +++
 
-TextMate v2.0-beta.12.23 でバンドルなどを保存しておくフォルダが TextMateフォルダにまとまるようになった。
+TextMate v2.0-beta.12.23 でバンドルなどを保存しておくフォルダが、
+AvianフォルダからTextMateフォルダにまとまるようになった。
 
 アップデート時にマイグレードしてくれる
 

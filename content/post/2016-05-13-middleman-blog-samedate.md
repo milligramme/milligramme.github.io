@@ -6,9 +6,12 @@ tags = ["middleman"]
 
 同日の date があると `previous_article`, `next_article` の挙動がおかしかったのでしらべた。
 
+
+### 参考
+
 [previous\_article, next\_article wrong results if more articles on same day · Issue \#241 · middleman/middleman\-blog](https://github.com/middleman/middleman-blog/issues/241)
 
-Frontmatterのdate: が YYYY-MM-DD だったのをtime付に変更した
+Frontmatterのdate: が YYYY-MM-DD だったのをtime付に変更した。
 
 
 （jekyllからmiddlemanにしたときにパースエラーをおこして時間をとっていたような…）

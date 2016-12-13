@@ -9,7 +9,7 @@ tags = ["indesign", "extendscript"]
 日本語化されている値の [段落スタイルなし]、[基本段落] みたいのをitemByNameしたいけど
 ロケールに依存したくない時の名称の取得について。
 
-`findkeyStrings` をつかう。
+## findkeyStrings() をつかう
 
 文字スタイルの [なし] の場合
 
@@ -29,7 +29,7 @@ $.writeln(app.characterStyles.item("$ID/[No Character Style]").name);
 
 ---
 
-2016-05-20追記 戻すにはこれでいい
+2016-05-20追記 戻すには `translateKeyString` でいい
 
 ```js
 $.writeln(app.translateKeyString("$ID/[No Character Style]"));

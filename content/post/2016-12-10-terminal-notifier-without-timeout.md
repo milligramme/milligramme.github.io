@@ -3,16 +3,14 @@ date = "2016-12-10T01:06:30+09:00"
 description = ""
 tags = ["terminal-notifier","ruby"
 ]
-draft = false
-outdated = false
+draft = true
+outdated = true
 title = "terminal-notifierでurl openが効かない"
 
 +++
 
-alfredで terminal-notifier をつかったrubyスクリプトで、
-クリックしてもurl openが効かなくなったので調べた
-
-結論からいくと timeoutを設定( nilでもいい) すればいいらしい
+いつからか、Alfredのワークフローで `terminal-notifier` をつかったrubyスクリプトが、
+クリックしても設定したurlを開かなくなったので調べた。
 
 ```
 % sw_vers
@@ -23,6 +21,8 @@ BuildVersion:	14F2009
 % ruby -v
 ruby 2.3.2p217 (2016-11-15 revision 56796) [x86_64-darwin14]
 ```
+
+結論からいくと timeout を設定( nilでもいい) すればいいらしい。
 
 [\`\-open\` does not work in 10\.11 · Issue \#181 · julienXX/terminal\-notifier](https://github.com/julienXX/terminal-notifier/issues/181)
 

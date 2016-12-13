@@ -4,17 +4,20 @@ date = "2016-02-05T00:00:00+09:00"
 tags = ["electron", "nodejs"]
 +++
 
+以前作った electron を流用して新しい electron アプリを作るときに、 Module versionの不一致というエラーがでて対処法をしらべた
+
+
+
+
+## 46がv4, 47がv5ということらしい
+
+node は `v4.2.1`
+
 [Module version mismatch\. Expected 47, got 46\. · Issue \#344 · polotek/libxmljs](https://github.com/polotek/libxmljs/issues/344)
 
 > no helpful information here to debug this nor do I think you have done any googling around for how to resolve this issue. You upgraded node without rebuilding the module.
 
-以前作った electron を流用して新しい electron アプリを作るときに、 Module versionの不一致というエラーがでて対処法をしらべた
-
-nodejs は `v4.2.1`
-
 [Previous Releases \| Node\.js](https://nodejs.org/en/download/releases/)
-
-46がv4, 47がv5ということらしい
 
 結果的に、Native Moduleを利用している時には electronの process.versionと実行するnodejsのバージョンがあっていないとダメらしい
 

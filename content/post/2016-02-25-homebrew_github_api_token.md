@@ -26,9 +26,11 @@ and then set the token as: HOMEBREW_GITHUB_API_TOKEN
 
 https://github.com/settings/tokens/new?scopes=&description=Homebrew
 
-でPersonal Access Tokenを作成
+で
 
-![2016 02 25 Homebrew Github Api Token](/images/2016-02-25-homebrew-github-api-token.png)
+### Personal Access Tokenを作成
+
+{{% img src="/images/2016-02-25-homebrew-github-api-token.png" %}}
 
 取得したら環境変数に設定
 
