@@ -26,6 +26,12 @@ blockquote {
   padding-left: 1em;
 }
 
+img {
+  width: auto;
+  height: auto;
+  max-width: 320px;
+}
+
 /*base*//*base*//*base*/
 
 #layout {
@@ -302,6 +308,10 @@ a#rewind:focus {
     padding-top: 2em;
     padding-bottom: 2em;
   }
+  img {
+    max-width: 540px;
+  }
+  
   
 }
 
