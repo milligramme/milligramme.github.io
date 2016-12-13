@@ -4,6 +4,7 @@ var data = [
     {
       url: "{{ $page.Permalink }}",
       title: "{{ $page.Title }}",
+      date: "{{ $page.Date.Format "2006-01-02 " }}",
       content: "{{ .PlainWords }}"
     }
   {{ end }}
