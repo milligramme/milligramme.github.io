@@ -144,11 +144,11 @@ input#q {
   background-color: hsl(20, 10%, 90%);
 }
 
-#sns {
+#social {
   background-color: hsl(20, 10%, 90%);
   padding:1em .5em;
 }
-#sns div {
+#social div {
   padding: .5em 0;
 }
 
@@ -277,10 +277,27 @@ a#rewind:focus {
   background-color: transparent;
 }
 
-
-@media (min-width: 48em) {
-  header,
+/*
+sm  @media screen and (min-width: 35.5em)  ≥ 568px  .pure-u-sm-*
+md  @media screen and (min-width: 48em)  ≥ 768px  .pure-u-md-*
+lg  @media screen and (min-width: 64em)  ≥ 1024px  .pure-u-lg-*
+xl  @media screen and (min-width: 80em)  ≥ 1280px  .pure-u-xl-*
+*/
+@media (min-width: 35.5em) {
   #content {
+    padding: 0 2em;
+  }
+  #layout {
+    left: 0;
+  }
+  #search {
+    text-align: right;
+  }
+  #social {
+    padding:1em 5em;
+  }
+
+  header {
     padding: 0 2em;
   }
   header h1 {
@@ -293,15 +310,6 @@ a#rewind:focus {
     color: hsl(0, 0%, 80%);
     font-weight: 300;
     margin-top: 0;
-  }
-  #layout {
-    left: 0;
-  }
-  #search {
-    text-align: right;
-  }
-  #sns {
-    padding:1em 5em;
   }
   .post-prev-next {
     font-size: 1em;

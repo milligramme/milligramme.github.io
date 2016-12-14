@@ -6,7 +6,7 @@ description = "About me and this site"
 
 milligramme
 
-[sns](#sns)
+[social](#social)
 
 extendscript (indesign, illustrator, photoshop, scriptui)
 

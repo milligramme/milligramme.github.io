@@ -8,7 +8,6 @@ canonifyurls = true
 paginate = 3
 
 [params]
-
   author = "milligramme"
 
   # Shown in the home page
@@ -18,11 +17,33 @@ paginate = 3
   # CSS name for highlight.js https://highlightjs.org/static/demo/
   highlightjs = "atom-one-light"
   dateFormat = "2006-01-02 15:04"
-  
-  # Local working dir for edit with TextMate
-  # This work under Development Mode
+
+[params.dev]
+  # Local working dir to edit with [TextMate](https://macromates.com/)
+  # This works under Development Mode.(env HUGO_ENV=DEV)
   # workingdir = "/path/to/hugo/content"
 
+[params.social]
+  twitter = "#"
+  facebook = "#"
+  googleplus = "#"
+  tumblr = "www"
+  pinterest = ""
+  stackoverflow = ""
+  github = ""
+  bitbucket = ""
+  gitlab = ""
+  instagram = ""
+  flickr = ""
+  linkedin = ""
+  vimeo = ""
+  soundcloud = ""
+  lastfm = ""
+  youtube = ""
+  pinboard = "pinboard"
+  slideshare = ""
+  speakerdeck = ""
+  
 [indexes]
   tag = "tags"
   
@@ -41,29 +62,7 @@ paginate = 3
     url = "/post/"
   [[menu.main]]
     name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
+    pre = "<i class='fa fa-smile-o fa-fw'></i>"
     weight = 2
     identifier = "about"
     url = "/about/"
-    
-[social]
-  twitter = ""
-  facebook = ""
-  googleplus = ""
-  tumblr = ""
-  pinterest = ""
-  stackoverflow = ""
-  github = ""
-  bitbucket = ""
-  gitlab = ""
-  instagram = ""
-  flickr = ""
-  linkedin = ""
-  vimeo = ""
-  soundcloud = ""
-  lastfm = ""
-  youtube = ""
-  pinboard = ""
-  slideshare = ""
-  speakerdeck = ""
-  
