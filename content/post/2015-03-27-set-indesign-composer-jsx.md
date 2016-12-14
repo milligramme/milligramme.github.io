@@ -4,6 +4,8 @@ date = "2015-03-27T00:00:00+09:00"
 tags = ["indesign", "extendscript"]
 +++
 
+## InDesignの段落コンポーザーをスクリプトで制御する話
+
 [https://forums.adobe.com/message/7359998#7359998](https://forums.adobe.com/message/7359998#7359998)
 
 InDesignの段落コンポーザーは通常、その言語の文字列で指定する。

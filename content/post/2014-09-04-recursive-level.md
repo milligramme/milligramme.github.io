@@ -1,10 +1,10 @@
 +++
-title = "recursive-level"
+title = "InDesign.jsxで再帰レベル"
 date = "2014-09-04T00:00:00+09:00"
 tags = ["indesign", "extendscript"]
 +++
 
-indesign.jsxで入れ子になったオブジェクトの一番親のときだけしたい処理があって、再帰レベルの取得をこんなので試したけど、もっといい方法あるだろうか
+InDesign.jsxで入れ子になったオブジェクトの一番親のときだけしたい処理があって、再帰レベルの取得をこんなので試したけど、もっといい方法あるだろうか
 
 ```js
 #target "InDesign"

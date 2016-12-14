@@ -1,10 +1,10 @@
 +++
-title = "bridge-jsx"
+title = "Bridge.jsxでPhotoshop.jsx"
 date = "2014-07-23T00:00:00+09:00"
 tags = ["extendscript", "bridge"]
 +++
 
-photoshop.jsx の流れで bridge.jsx を少しいじってみた
+Photoshop.jsx の流れで Bridge.jsx を少しいじってみた
 
 ```js
 #target 'bridge'

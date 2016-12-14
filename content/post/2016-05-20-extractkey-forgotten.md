@@ -1,5 +1,5 @@
 +++
-title = "indesign.jsxでinsertLabelのKeyを忘れてしまったら"
+title = "InDesign.jsxでinsertLabelのKeyを忘れてしまったら"
 date = "2016-05-20T12:10:00+09:00"
 tags = ["indesign", "extendscript", "idml"]
 +++

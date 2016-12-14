@@ -18,7 +18,6 @@ middleman-blog を bundle update したら rouge がwarningを出すようにな
 middleman-syntax でrequireしてる
 
 - [Use require instead of load to handle double loading by segiddins · Pull Request \#291 · jneen/rouge](https://github.com/jneen/rouge/pull/291)
-- [uninitialized constant \#<Class:\.\.\.>::Rouge · Issue \#45 · middleman/middleman\-syntax](https://github.com/middleman/middleman-syntax/issues/45)
+- [uninitialized constant \#<Class:\.\.\.\>\:\:Rouge · Issue \#45 · middleman/middleman\-syntax](https://github.com/middleman/middleman-syntax/issues/45)
 
-っぽい
-
+が原因っぽい。

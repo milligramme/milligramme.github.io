@@ -4,6 +4,7 @@ date = "2015-09-09T00:00:00+09:00"
 tags = ["ruby", "indesign"]
 +++
 
+InDesignでタグ付きテキストは UTF-16LE の必要がある
 
 - スタイルが設定済みのinddドキュメントに流し込むなら <DefineXXXStyle:xxx> などの設定の記述は省略してもいい
 - `<XXXStyle>`のスタイルグループ付スタイルは `\:` で区切る

@@ -1,7 +1,7 @@
 +++
 title = "OSX YosemiteにAdobe CS3"
 date = "2015-04-20T00:00:00+09:00"
-tags = ["osx"]
+tags = ["osx", "adobe"]
 +++
 
 こどもの遊び用の MacBook Airを Marvericks から Yosemite 10.10.3 にしたときのトラブル。

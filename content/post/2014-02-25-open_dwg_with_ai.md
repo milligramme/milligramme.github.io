@@ -16,7 +16,7 @@ var doc = app.open("/path/to/dwg_file.dwg", DocumentColorSpace.CMYK, open_opt);
 ```
 
 
-AI.jsx で CADデータ開くとき、 `open()` 第3引数のオプションを指定するとおこられるが、指定しないとオプションダイアログがでてしまう。 AutoCADFileOptions を設定してオプションダイアログをスキップするには、第3引数を設定せず
+Illustrator.jsx で CADデータ開くとき、 `open()` 第3引数のオプションを指定するとおこられるが、指定しないとオプションダイアログがでてしまう。 AutoCADFileOptions を設定してオプションダイアログをスキップするには、第3引数を設定せず
 
 ```js
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
@@ -34,7 +34,7 @@ var new_doc = app.documents.add(DocumentColorSpace.CMYK);
 
 または、RGB→CMYK変換のアクションを使えばいいらしい。。。
 
-いずれにしても AI.jsx ひどい
+いずれにしても Illustrator.jsx ひどい
 
 
 ### 参考にした

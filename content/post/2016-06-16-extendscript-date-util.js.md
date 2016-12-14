@@ -1,5 +1,5 @@
 +++
-title = "indesign.jsxでdate-util.jsを使う"
+title = "InDesign.jsxでdate-util.jsを使う"
 date = "2016-06-16T10:25:00+09:00"
 tags = ["nodejs", "extendscript"]
 +++

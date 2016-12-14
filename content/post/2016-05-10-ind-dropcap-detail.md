@@ -1,5 +1,5 @@
 +++
-title = "indesign.jsx dropcapDetailメモ"
+title = "InDesign.jsx dropcapDetailメモ"
 date = "2016-05-10T00:00:00+09:00"
 tags = ["indesign", "extendscript"]
 +++

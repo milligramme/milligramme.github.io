@@ -4,7 +4,7 @@ date = "2016-08-02T10:25:00+09:00"
 tags = ["indesign", "extendscript"]
 +++
 
-前々からあるけど indesign.jsxで現在の選択ツールを返す方法が出てたのでメモ
+前々からあるけど InDesign.jsxで現在の選択ツールを返す方法が出てたのでメモ
 
 [Is it possible to get selected tool name from a\.\.\. \|Adobe Community](https://forums.adobe.com/thread/2189391)
 

@@ -1,5 +1,5 @@
 +++
-title = "fswatchでxlsxをつくる"
+title = "fswatchしながらxlsxをつくる"
 date = "2016-06-30T11:00:00+09:00"
 tags = ["fswatch", "rake", "xls", "csv"]
 +++

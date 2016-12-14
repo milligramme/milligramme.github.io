@@ -1,5 +1,5 @@
 +++
-title = "indesign.jsx ロケールに依存しない名称取得"
+title = "InDesign.jsx ロケールに依存しない名称取得"
 date = "2016-05-13T00:00:00+09:00"
 tags = ["indesign", "extendscript"]
 +++

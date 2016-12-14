@@ -1,5 +1,5 @@
 +++
-title = "postgresql-on-osx"
+title = "OSX上にPostgreSQL環境作り"
 date = "2014-08-25T00:00:00+09:00"
 tags = ["osx", "homebrew", "postgresql"]
 +++

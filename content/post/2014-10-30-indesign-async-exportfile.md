@@ -1,5 +1,5 @@
 +++
-title = "indesign.jsxの非同期書き出し可能なのはpdfとidml"
+title = "InDesign.jsxの非同期書き出し可能なのはpdfとidml"
 date = "2014-10-30T00:00:00+09:00"
 tags = ["extendscript", "indesign","pdf","idml"]
 +++
