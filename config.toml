@@ -8,6 +8,8 @@ canonifyurls = true
 hasCJKLanguage = true
 paginate = 10
 
+googleAnalytics = "UA-20033906-2"
+
 [indexes]
   tag = "tags"
 
@@ -17,8 +19,7 @@ paginate = 10
   # Shown in the home page
   subtitle = "ちらしのうらがきです"
   brand = "<i class='fa fa-dot-circle-o'></i> :note"
-  googleAnalytics = "UA-20033906-2"
-
+  
   # CSS name for highlight.js https://highlightjs.org/static/demo/
   highlightjs = "atom-one-light"
   dateFormat = "2006-01-02 Mon."

@@ -7,13 +7,14 @@ copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
 paginate = 3
 
+googleAnalytics = "Your Google Analytics tracking ID"
+
 [params]
   author = "milligramme"
 
   # Shown in the home page
   subtitle = "Subtitle"
   brand = "🔥:magnesium"
-  googleAnalytics = "Your Google Analytics tracking ID"
   # CSS name for highlight.js https://highlightjs.org/static/demo/
   highlightjs = "atom-one-light"
   dateFormat = "2006-01-02 15:04"

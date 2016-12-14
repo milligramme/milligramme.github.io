@@ -29,6 +29,8 @@ paginate = 10
 # for CJK lang
 hasCJKLanguage = true
 
+googleAnalytics = "Your Google Analytics tracking ID"
+
 [indexes]
   tag = "tags"
   category = "categories"
@@ -37,7 +39,6 @@ hasCJKLanguage = true
   author = "Your name"
   subtitle = "Subtitle"
   brand = "magnesium"
-  googleAnalytics = "Your Google Analytics tracking ID"
 
   # CSS name for highlight.js https://highlightjs.org/static/demo/
   highlightjs = "atom-one-light"
