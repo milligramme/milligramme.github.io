@@ -44,30 +44,36 @@ hasCJKLanguage = true
   
   dateFormat = "2006-01-02 15:04"
   
+  []
   # Set local working dir to edit with TextMate
   # This work under Development Mode
   workingdir = "/path/to/hugo/content"
 
-[params.social]
-  twitter = "#"
-  facebook = "#"
-  googleplus = "#"
-  tumblr = "www"
-  pinterest = "#"
-  stackoverflow = "#"
-  github = "#"
-  bitbucket = "#"
-  gitlab = "#"
-  instagram = "#"
-  flickr = "#"
-  linkedin = "#"
-  vimeo = "#"
-  soundcloud = "#"
-  lastfm = "#"
-  youtube = "#"
-  pinboard = "pinboard"
-  slideshare = "#"
-  speakerdeck = "#"
+  [params.social]
+    twitter = "#"
+    facebook = "#"
+    googleplus = "#"
+    tumblr = "www"
+    pinterest = "#"
+    stackoverflow = "#"
+    github = "#"
+    bitbucket = "#"
+    gitlab = "#"
+    instagram = "#"
+    flickr = "#"
+    linkedin = "#"
+    vimeo = "#"
+    soundcloud = "#"
+    lastfm = "#"
+    youtube = "#"
+    pinboard = "pinboard"
+    slideshare = "#"
+    speakerdeck = "#"
+
+  [params.adsense]
+    # page_adv = "adsense/google_adsence_page_adv"
+    # responsive = "adsense/google_adsence_responsive"
+
 
 [menu]
   # Shown in the side menu.
