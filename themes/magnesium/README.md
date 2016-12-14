@@ -71,8 +71,8 @@ hasCJKLanguage = true
     speakerdeck = "#"
 
   [params.adsense]
-    # page_adv = "adsense/google_adsence_page_adv"
-    # responsive = "adsense/google_adsence_responsive"
+    # page_adv = "adsense/mobile_anchor_adv"
+    # responsive = "adsense/responsive_adv"
 
 
 [menu]
