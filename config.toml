@@ -21,38 +21,42 @@ hasCJKLanguage = true
 
   # CSS name for highlight.js https://highlightjs.org/static/demo/
   highlightjs = "atom-one-light"
-  dateFormat = "2006-01-02"
+  dateFormat = "2006-01-02 Mon."
 
-[params.dev]
-  # Local working dir to edit with [TextMate](https://macromates.com/)
-  # This works under Development Mode.(env HUGO_ENV=DEV)
-  workingdir = "~/play/milligramme.hugo/content"
+  [params.dev]
+    # Local working dir to edit with [TextMate](https://macromates.com/)
+    # This works under Development Mode.(env HUGO_ENV=DEV)
+    workingdir = "~/play/milligramme.hugo/content"
 
-[params.social]
-  twitter = "milligramme"
-  facebook = ""
-  googleplus = ""
-  tumblr = "milligramme"
-  pinterest = "milligramme"
-  stackoverflow = "1536789"
-  github = "milligramme"
-  bitbucket = "milligramme"
-  gitlab = "milligramme"
-  instagram = "milligramme"
-  flickr = "milligramme"
-  linkedin = ""
-  vimeo = "milligramme"
-  soundcloud = "milligramme"
-  lastfm = "milliqramme"
-  youtube = ""
-  pinboard = "milligramme"
-  slideshare = "milligramme"
-  speakerdeck = "milligramme"
+  [params.social]
+    twitter = "milligramme"
+    facebook = ""
+    googleplus = ""
+    tumblr = "milligramme"
+    pinterest = "milligramme"
+    stackoverflow = "1536789"
+    github = "milligramme"
+    bitbucket = "milligramme"
+    gitlab = "milligramme"
+    instagram = "milligramme"
+    flickr = "milligramme"
+    linkedin = ""
+    vimeo = "milligramme"
+    soundcloud = "milligramme"
+    lastfm = "milliqramme"
+    youtube = ""
+    pinboard = "milligramme"
+    slideshare = "milligramme"
+    speakerdeck = "milligramme"
+    
+  [params.adsense]
+    page_adv = "adsense/google_adsence_page_adv"
+    responsive = "adsense/google_adsence_responsive"
   
 [menu]
   [[menu.main]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    pre = "<i class='fa fa-file-text-o fa-fw'></i>"
     weight = 1
     identifier = "post"
     url = "/post/"
