@@ -1,17 +1,20 @@
 body {
   color: hsl(20, 10%, 20%);
 }
-a {
+a:link {
   color: hsl(20, 10%, 60%);
   text-decoration: none;
+}
+a:visited {
+  color: hsl(20, 20%, 50%);
 }
 a:hover,
 a:focus {
   text-decoration: underline;
-  background-color: hsl(60, 20%, 80%);
 }
-a:visited {
-  color: hsl(20, 20%, 50%);
+a:active {
+  color: hsl(20, 10%, 20%);
+  text-decoration: overline;
 }
 
 code {
@@ -72,7 +75,7 @@ header > h2 {
   content
 */
 #content {
-  margin: 0 auto 0 ;
+  margin: 0 auto;
   padding: 1em .5em 0;
   max-width: 960px;
   margin-bottom: 50px;
@@ -85,12 +88,10 @@ header > h2 {
   border-left: 8px solid hsl(320, 40%, 50%);
   padding-left: 5px;
 }
-
 #content h3 {
   border-left: 12px solid hsl(320, 40%, 70%);
   padding-left: 5px;
 }
-
 #content h4 {
   border-left: 20px solid hsl(320, 40%, 90%);
   padding-left: 5px;
@@ -102,20 +103,24 @@ header > h2 {
 */
 
 #brand {
-  font-size: 2em;
-  background-color: hsl(20, 10%, 80%);
-  padding-bottom: 0;
+  background-color: hsl(20, 80%, 10%);
+  padding: 0;
 }
 #brand .brand {
   font-family: 'Lato','sans-serif';
   font-size: 1em;
-  font-weight: 900;
+  font-weight: 400;
   letter-spacing: .2em;
   text-align: center;
   text-transform: none;
-  background: transparent;
   text-decoration: none;
-  padding-top: 0;
+  background: transparent;
+}
+
+#menu {
+  background-color: hsl(20, 10%, 90%);
+  padding: 7px;
+  
 }
 
 #search {
@@ -139,10 +144,6 @@ input#q {
   margin-bottom: 0;
 }
 
-
-#menu {
-  background-color: hsl(20, 10%, 90%);
-}
 
 #social {
   background-color: hsl(20, 10%, 90%);
@@ -196,12 +197,14 @@ ul.list li time{
 .list-time {
   font-size: .8em;
   color: hsl(320, 50%, 50%);
+  margin-bottom: .2em;
 }
 /*
   meta
 */
 .post-meta {
   padding: 0 .5em .5em 0;
+  font-size: .9em;
 }
 .post-meta div {
   margin: .5em;
