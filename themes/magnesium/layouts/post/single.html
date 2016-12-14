@@ -9,7 +9,7 @@
       <h1>
         {{ .Title }}
         {{ if eq (getenv "HUGO_ENV") "DEV" }}
-          {{ if .IsDraft }}<i class="fa fa-ban draft"></i><span class="small-print draft">[draft]</span>{{ end }}
+          {{ if .IsDraft }}<i class="fa fa-exclamation-circle fa-fw draft"></i><span class="small-print draft">draft</span>{{ end }}
           {{ partial "tm_edit" . }}
         {{ end }}
       </h1>
@@ -25,7 +25,9 @@
 
   </div>
   <div id="content-side" class="pure-u-1 pure-u-md-1-5">
-    {{ partial "google_adsence_responsive_adv" . }}
+    {{ with .Site.Params.adsense.responsive }}
+      {{ partial  . }}
+    {{ end }}
   </div>
 </div>
 {{ partial "footer" . }}

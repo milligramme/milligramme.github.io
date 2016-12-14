@@ -11,7 +11,9 @@
     {{ end }}
     {{ partial "copyright" . }}
   </footer>
-  {{ partial "google_adsence_page_adv" . }}
+  {{ with .Site.Params.adsense.page_adv }}
+    {{ partial . }}
+  {{ end }}
   <a id="rewind" href="javascript:void(0)">
     <span class="fa fa-stack fa-lg">
       <i class="fa fa-circle-o fa-stack-2x"></i>
