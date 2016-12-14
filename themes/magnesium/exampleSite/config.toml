@@ -18,55 +18,55 @@ paginate = 3
   highlightjs = "atom-one-light"
   dateFormat = "2006-01-02 15:04"
 
-[params.dev]
-  # Local working dir to edit with [TextMate](https://macromates.com/)
-  # This works under Development Mode.(env HUGO_ENV=DEV)
-  # workingdir = "/path/to/hugo/content"
+  [params.dev]
+    # Local working dir to edit with [TextMate](https://macromates.com/)
+    # This works under Development Mode.(env HUGO_ENV=DEV)
+    # workingdir = "/path/to/hugo/content"
 
-[params.social]
-  twitter = "#"
-  facebook = "#"
-  googleplus = "#"
-  tumblr = "www"
-  pinterest = "#"
-  stackoverflow = "#"
-  github = "#"
-  bitbucket = "#"
-  gitlab = "#"
-  instagram = "#"
-  flickr = "#"
-  linkedin = "#"
-  vimeo = "#"
-  soundcloud = "#"
-  lastfm = "#"
-  youtube = "#"
-  pinboard = "pinboard"
-  slideshare = "#"
-  speakerdeck = "#"
+  [params.social]
+    twitter = "#"
+    facebook = "#"
+    googleplus = "#"
+    tumblr = "www"
+    pinterest = "#"
+    stackoverflow = "#"
+    github = "#"
+    bitbucket = "#"
+    gitlab = "#"
+    instagram = "#"
+    flickr = "#"
+    linkedin = "#"
+    vimeo = "#"
+    soundcloud = "#"
+    lastfm = "#"
+    youtube = "#"
+    pinboard = "pinboard"
+    slideshare = "#"
+    speakerdeck = "#"
   
+  [params.adsense]
+    # page_adv = "adsense/google_adsence_page_adv"
+    # responsive = "adsense/google_adsence_responsive"
+
+
 [indexes]
   tag = "tags"
   category = "categories"
   
+  
 [menu]
-  [[menu.main]]
-    name = "tags"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 2
-    identifier = "tags"
-    url = "/tags/"
-  [[menu.main]]
-    name = "categories"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 2
-    identifier = "categories"
-    url = "/categories/"
   [[menu.main]]
     name = "posts"
     pre = "<i class='fa fa-file-text-o fa-fw'></i>"
     weight = 1
     identifier = "post"
     url = "/post/"
+  [[menu.main]]
+    name = "tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 2
+    identifier = "tags"
+    url = "/tags/"
   [[menu.main]]
     name = "about"
     pre = "<i class='fa fa-smile-o fa-fw'></i>"

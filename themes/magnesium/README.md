@@ -1,6 +1,4 @@
-# Magnesium
-
-[Hugo](//gohugo.io) theme
+# Magnesium - [Hugo](//gohugo.io) Theme
 
 ## Features
 
@@ -33,6 +31,7 @@ hasCJKLanguage = true
 
 [indexes]
   tag = "tags"
+  category = "categories"
 
 [params]
   author = "Your name"
@@ -48,6 +47,27 @@ hasCJKLanguage = true
   # Set local working dir to edit with TextMate
   # This work under Development Mode
   workingdir = "/path/to/hugo/content"
+
+[params.social]
+  twitter = "#"
+  facebook = "#"
+  googleplus = "#"
+  tumblr = "www"
+  pinterest = "#"
+  stackoverflow = "#"
+  github = "#"
+  bitbucket = "#"
+  gitlab = "#"
+  instagram = "#"
+  flickr = "#"
+  linkedin = "#"
+  vimeo = "#"
+  soundcloud = "#"
+  lastfm = "#"
+  youtube = "#"
+  pinboard = "pinboard"
+  slideshare = "#"
+  speakerdeck = "#"
 
 [menu]
   # Shown in the side menu.
@@ -70,30 +90,6 @@ hasCJKLanguage = true
     identifier = "about"
     url = "/about/"
 
-[social]
-  twitter = "milligramme"
-  facebook = ""
-  googleplus = ""
-
-  tumblr = "milligramme"
-  pinterest = "milligramme"
-
-  stackoverflow = "1536789"
-  github = "milligramme"
-  bitbucket = "milligramme"
-  gitlab = "milligramme"
-
-  instagram = "milligramme"
-  flickr = "milligramme"
-
-  linkedin = ""
-  vimeo = "milligramme"
-  soundcloud = "milligramme"
-  lastfm = "milliqramme"
-  youtube = ""
-  pinboard = "milligramme"
-  slideshare = "GoKoide"
-  speakerdeck = "milligramme"
 ```
 
 
@@ -108,15 +104,12 @@ hasCJKLanguage = true
 {{% img src="images/image.jpg" caption="Referenced from wikipedia." href="https://en.wikipedia.org/wiki/Lorem_ipsum" %}}
 ```
 
-
 ## Demo
 
 ```
 $ cd themes/magnesium/exampleSite
 $ hugo server -D -w -t=../..
 ```
-
-
 
 ## Development mode
 
@@ -130,6 +123,6 @@ This mode is
 
 * Not show Google Analytics tags.
 * Show `IsDraft`.
-* Show `Edit` button for TextMate ( `.Site.Params.workingdir` is required )
+* Show `Edit` button for TextMate. ( `.Site.Params.workingdir` is required )
 
 And set `{{ if ne (getenv "HUGO_ENV") "DEV" }} Set elements here. {{ end }}` if you want to place only in a production environment.
