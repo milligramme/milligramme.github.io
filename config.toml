@@ -50,8 +50,9 @@ paginate = 10
     speakerdeck = "milligramme"
     
   [params.adsense]
-    page_adv = "adsense/mobile_anchor_adv"
-    responsive = "adsense/responsive_adv"
+    mobile_anchor = "adsense/mobile_anchor_adv"
+    responsive1 = "adsense/responsive_adv1"
+    responsive2 = "adsense/responsive_adv2"
   
 [menu]
   [[menu.main]]
