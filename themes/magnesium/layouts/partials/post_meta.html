@@ -26,4 +26,17 @@
     {{ end }}
   {{ end }}
 
+  {{ if isset .Params "categories" }}
+    {{ $count := len .Params.categories }}
+    {{ if gt $count 0 }}
+    <div>
+      <i class="fa fa-folder-o fa-fw"></i>
+      {{ range $k, $v := .Params.categories }}
+        <a class="post-taxonomy-categories" href="{{ $baseUrl }}categories/{{ . | urlize }}">{{ . }}</a>
+        {{ if lt $k (sub $count 1) }}&nbsp;&#124;{{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+
 </div>

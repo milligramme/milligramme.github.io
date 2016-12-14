@@ -46,14 +46,21 @@ paginate = 3
   
 [indexes]
   tag = "tags"
+  category = "categories"
   
 [menu]
   [[menu.main]]
     name = "tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 1
+    weight = 2
     identifier = "tags"
     url = "/tags/"
+  [[menu.main]]
+    name = "categories"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 2
+    identifier = "categories"
+    url = "/categories/"
   [[menu.main]]
     name = "posts"
     pre = "<i class='fa fa-file-text-o fa-fw'></i>"
@@ -63,6 +70,6 @@ paginate = 3
   [[menu.main]]
     name = "about"
     pre = "<i class='fa fa-smile-o fa-fw'></i>"
-    weight = 2
+    weight = 3
     identifier = "about"
     url = "/about/"
