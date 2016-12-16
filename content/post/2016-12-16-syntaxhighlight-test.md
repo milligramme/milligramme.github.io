@@ -14,16 +14,24 @@ title = "Hugo syntaxhighlight test"
 
 CDN経由の highlight.js でよみこまれない言語のうち以下を追加
 
+### Golang
+
+```go
+package main
+
+import "fmt"
+func main() {
+    fmt.Println("hello world")
+}
+```
+
 ### AppleScript
 
 ```applescript
 tell application "Finder"
-  -- statements
+  -- hello
   activate
-  set select_items to selection
-  set every_items to every item of select_items
-  delete every_items
-  display dialog "Move to Trash.."
+  display dialog "Hello World."
 end tell
 ```
 
@@ -71,12 +79,10 @@ body {
 }
 ```
 
-### SASS
-
 sassには対応してない
 
-```sass
-$font-stack:    Helvetica, sans-serif
+```scss
+$font-stack: Helvetica, sans-serif
 $primary-color: #333
 
 body
@@ -87,10 +93,32 @@ body
 ### YAML
 
 ```yaml
-foo:
-  bar:
-    - 123
-    - abc
-    - DEF
-  buz: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+invoice: 34843
+date   : 2001-01-23
+bill-to: &id001
+    given  : Chris
+    family : Dumars
+    address:
+        lines: |
+            458 Walkman Dr.
+            Suite #292
+        city    : Royal Oak
+        state   : MI
+        postal  : 48046
+ship-to: *id001
+product:
+    - sku         : BL394D
+      quantity    : 4
+      description : Basketball
+      price       : 450.00
+    - sku         : BL4438H
+      quantity    : 1
+      description : Super Hoop
+      price       : 2392.00
+tax  : 251.42
+total: 4443.52
+comments: >
+    Late afternoon is best.
+    Backup contact is Nancy
+    Billsmer @ 338-4338.
 ```
