@@ -184,12 +184,12 @@ h2.summary {
 */
 body > footer {
   background-color: hsl(20, 10%, 90%);
-  padding-bottom: 25px;
+  padding: 25px;
 }
 #copyrights {
-  margin: 25px 80px 0 0;
-  line-height: 1.3em;
-  text-align: right;
+  padding-bottom: 60px;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 /*
@@ -256,7 +256,6 @@ ul.list li time{
 .pagination span {
   padding: .2em;
 }
-
 .pagination span.current-page {
   color: hsl(0, 0%, 100%);
   background-color: hsl(320, 60%, 80%);
