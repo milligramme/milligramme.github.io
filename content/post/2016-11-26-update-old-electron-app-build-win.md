@@ -9,13 +9,11 @@ description = ""
 
 +++
 
-古いElectron.appを
+古い環境でつくったElectron.appをアップグレードした。
 
-nodejs v4.4.5 -> v6.3.0
+- nodejs v4.4.5 -> v6.3.0
+- electron v0.36.7 -> v1.4.8
 
-electron v0.36.7 -> v1.4.8
-
-にアップグレードした。
 
 その後、 [electron\-userland/electron\-packager](https://github.com/electron-userland/electron-packager) でのappの生成でmacからwinのアプリが生成できなくなった。
 

@@ -1,7 +1,7 @@
 +++
 title = "middleman-blogをweckerでデプロイ"
 date = "2016-01-19T00:00:00+09:00"
-tags = ["middleman", "wecker", "deploy"]
+tags = ["middleman", "wercker", "deploy"]
 +++
 
 middleman-deploy もいいが、buildに結構時間がとられるので、
