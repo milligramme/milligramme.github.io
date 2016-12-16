@@ -263,19 +263,21 @@ ul.list li time{
   outdated
 */
 .outdated {
-  background: hsl(320, 100%, 50%) url() repeat scroll top left;
+  background: hsl(320, 100%, 70%) url() repeat scroll top left;
   color: hsl(0, 0%, 100%);
-  padding: .2em;
+  padding: 1em .2em;
+  text-align: center;
+  
 }
 .outdated:before {
-  content: 'Outdated';
+  content: 'Outdated content';
   font-weight: 700;
 }
 /*
   draft
 */
 .draft {
-  color: hsl(320, 100%, 50%);
+  color: hsl(320, 100%, 70%);
 }
 
 

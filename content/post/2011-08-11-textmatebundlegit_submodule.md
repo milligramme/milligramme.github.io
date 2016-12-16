@@ -130,5 +130,4 @@ $ git submodule foreach 'git checkout master; git pull origin master'
 
 - [textmateのbundleをgitで管理 - うんたらかんたら日記](http://d.hatena.ne.jp/rochefort/20110206/p1)
 - [git submoduleの更新 - うんたらかんたら日記](http://d.hatena.ne.jp/rochefort/20110410/p1)
-
 - [2.4.1 git-submoduleで外部のリポジトリを扱う。 - redtower&apos;s memo](http://redtower.plala.jp/2010/11/05/git-submodule.html)
