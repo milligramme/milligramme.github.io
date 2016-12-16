@@ -120,15 +120,21 @@ header > h2 {
 }
 
 #menu {
-  background-color: hsl(20, 10%, 90%);
-  padding: 7px;
-  
+  padding-left: 1em;
+}
+#menu:focus:before,
+#menu:hover:before {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f100\f0a6\f101";
+  color: hsl(0, 0%, 90%);
+  left: 0;
 }
 
 #search {
-  background-color: hsl(20, 10%, 90%);
+/*  background-color: hsl(20, 10%, 90%);*/
   text-align: left;
-  padding: 7px;
+  padding-left: 7px;
 }
 input#q {
   display: inline-block;
