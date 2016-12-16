@@ -2,6 +2,7 @@
 title = "MavericksでAppleScriptのclickが効かない"
 date = "2015-07-31T00:00:00+09:00"
 tags = ["osx", "applescript"]
+outdated = true
 +++
 
 AlfredのWorkflowに登録しているAppleScriptが正常に動作してなかったので調べた

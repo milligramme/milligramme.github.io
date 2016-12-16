@@ -14,11 +14,11 @@ draft = true
 
 ## Hugoのテーマを作る
 
-[Hugo \- Creating a Theme](https://gohugo.io/themes/creation/)
+公式のドキュメントをみて大体わかる
 
-[Hugo \- Customizing a Theme](https://gohugo.io/themes/usage)
+- [Hugo \- Creating a Theme](https://gohugo.io/themes/creation/)
+- [Hugo \- Customizing a Theme](https://gohugo.io/themes/usage)
 
-公式のドキュメントをみてpartials と render の違いがわかれば大体わかる
 
 基本方針は
 
@@ -60,6 +60,7 @@ Google Fontsと Font Awesome
 
 ## はまりどころ
 
+### list.htmlがエラーになる
 
 `layoutes/_default/list.html` がどうしてもエラーになってしまう
 
