@@ -1,10 +1,10 @@
 +++
-title = "electronとNative Module"
+title = "ElectronとNative Module"
 date = "2016-02-05T00:00:00+09:00"
 tags = ["electron", "nodejs"]
 +++
 
-以前作った electron を流用して新しい electron アプリを作るときに、 Module versionの不一致というエラーがでて対処法をしらべた
+以前作った Electron を流用して新しい Electron アプリを作るときに、 Module versionの不一致というエラーがでて対処法をしらべた
 
 
 
