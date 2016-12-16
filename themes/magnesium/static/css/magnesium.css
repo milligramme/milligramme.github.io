@@ -110,7 +110,7 @@ header > h2 {
 }
 #brand .brand {
   font-family: 'Lato','sans-serif';
-  font-size: 1em;
+  font-size: 1.6em;
   font-weight: 400;
   letter-spacing: .2em;
   text-align: center;
@@ -247,8 +247,8 @@ ul.list li time{
   pagination
 */
 .pagination {
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 2em;
   text-align: center;
   margin-top: 1em;
   color: hsl(20, 10%, 20%);
@@ -259,7 +259,7 @@ ul.list li time{
 
 .pagination span.current-page {
   color: hsl(0, 0%, 100%);
-  background-color:hsl(320, 60%, 80%);
+  background-color: hsl(320, 60%, 80%);
 }
 .pagination span a {
   color: hsl(20, 10%, 60%);
@@ -273,7 +273,6 @@ ul.list li time{
   color: hsl(0, 0%, 100%);
   padding: 1em .2em;
   text-align: center;
-  
 }
 .outdated:before {
   content: 'Outdated content';
@@ -301,6 +300,7 @@ a#rewind:hover,
 a#rewind:focus {
   background-color: transparent;
 }
+
 
 /*
 sm  @media screen and (min-width: 35.5em)  ≥ 568px  .pure-u-sm-*
