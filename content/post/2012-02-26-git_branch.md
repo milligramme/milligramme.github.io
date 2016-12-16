@@ -1,5 +1,5 @@
 +++
-title = "マージされてないbranchを調べる"
+title = "gitでマージされてないbranchを調べる"
 date = "2012-02-26T00:00:00+09:00"
 tags = ["git"]
 +++

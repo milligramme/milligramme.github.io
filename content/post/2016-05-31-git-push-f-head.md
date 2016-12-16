@@ -1,5 +1,5 @@
 +++
-title = "git-push-f-head"
+title = "gitでマージ前の状態に push -f"
 date = "2016-05-31T09:31:00+09:00"
 tags = ["git"]
 +++

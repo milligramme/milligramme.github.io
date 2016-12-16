@@ -1,7 +1,8 @@
 +++
-title = "new MacBook Air setup Pt.1"
+title = "MacBook Air setup Pt.1"
 date = "2013-10-02T00:00:00+09:00"
-tags = ["osx", "dev"]
+tags = ["osx", "development"]
+outdated = true
 +++
 
 増税前に新しい MacBook Air 11 を買ったのでセッティングメモ

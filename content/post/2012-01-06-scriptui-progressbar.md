@@ -1,5 +1,5 @@
 +++
-title = "パネルの裏に隠れるプログレスバーの回避策"
+title = "ScriptUIでパネルの裏に隠れるプログレスバーの回避策"
 date = "2012-01-06T00:00:00+09:00"
 tags = ["scriptui", "extendscript"]
 +++

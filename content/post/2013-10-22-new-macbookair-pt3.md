@@ -1,7 +1,8 @@
 +++
-title = "new MacBook Air setup Pt.3"
+title = "MacBook Air setup Pt.3"
 date = "2013-10-22T00:00:00+09:00"
 tags = ["osx", "development", "defaults", "textmate"]
+outdated = true
 +++
 
 増税前に新しい MacBook Air 11 を買ったのでセッティングメモ その3
