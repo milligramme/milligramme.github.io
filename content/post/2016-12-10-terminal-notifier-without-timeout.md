@@ -3,8 +3,8 @@ date = "2016-12-10T01:06:30+09:00"
 description = ""
 tags = ["terminal-notifier","ruby"
 ]
-draft = true
-outdated = true
+draft = false
+outdated = false
 title = "terminal-notifierでurl openが効かない"
 
 +++

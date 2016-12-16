@@ -25,7 +25,7 @@ draft = true
 - レスポンシブデザイン
 - シンタックスハイライト
 - 検索機能
-- フォント
+- アイコンフォント
 
 ### レスポンシブデザイン
 
@@ -53,9 +53,9 @@ CDN経由だと、主要な22の言語にしか対応していないので、別
 を参考に、サイト全体のjsonを生成して、インクリメントサーチ
 
 
-### フォント
+### アイコンフォント
 
-Google Fontsと Font Awesome
+[Font Awesome, the iconic font and CSS toolkit](http://fontawesome.io/)
 
 
 ## はまりどころ
@@ -64,14 +64,8 @@ Google Fontsと Font Awesome
 
 `layoutes/_default/list.html` がどうしてもエラーになってしまう
 
-```
-Started building sites ...
-ERROR: 2016/12/16 10:39:43 general.go:212: Error while rendering section : template: theme/_default/list.html:14:14: executing "theme/_default/list.html" at <.IsDraft>: can't evaluate field IsDraft in type *hugolib.Node
-ERROR: 2016/12/16 10:39:43 general.go:212: Error while rendering section post: template: theme/_default/list.html:14:14: executing "theme/_default/list.html" at <.IsDraft>: can't evaluate field IsDraft in type *hugolib.Node
-```
-
 [Only layouts/\_default/list\.html will work for my post section \- support \- Hugo Discussion](https://discuss.gohugo.io/t/only-layouts--default-list-html-will-work-for-my-post-section/1491)
 
 [Hugo \- Content Views](http://gohugo.io/templates/views/)
 
-li.html にするべき
+li.html にするべきらしい
