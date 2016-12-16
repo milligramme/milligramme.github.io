@@ -288,19 +288,9 @@ ul.list li time{
 
 #rewind {
   position: fixed;
-  display: block;
-  margin: 0 auto;
-  width: 45px;
-  height: 45px;
   right: 15px;
   bottom: 10px;
 }
-
-a#rewind:hover,
-a#rewind:focus {
-  background-color: transparent;
-}
-
 
 /*
 sm  @media screen and (min-width: 35.5em)  ≥ 568px  .pure-u-sm-*
