@@ -14,11 +14,6 @@
   {{ with .Site.Params.adsense.mobile_anchor }}
     {{ partial . }}
   {{ end }}
-  <a id="rewind" href="javascript:void(0)">
-    <button class="pure-button">
-      <i class="fa fa-chevron-up fa-fw"></i>up
-    </button>
-  </a>
-  
+  {{ partial "rewinder" . }}
 </body>
 </html>
