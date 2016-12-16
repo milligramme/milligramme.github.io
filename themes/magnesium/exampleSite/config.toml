@@ -58,6 +58,12 @@ googleAnalytics = "Your Google Analytics tracking ID"
   
 [menu]
   [[menu.main]]
+    name = "home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
     name = "posts"
     pre = "<i class='fa fa-file-text-o fa-fw'></i>"
     weight = 1
