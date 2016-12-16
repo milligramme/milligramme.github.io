@@ -86,14 +86,16 @@ header > h2 {
 }
 #content h2 {
   border-left: 8px solid hsl(320, 40%, 50%);
-  padding-left: 5px;
+  margin-top: 3em;
+  padding-left: 8px;
 }
 #content h3 {
-  border-left: 12px solid hsl(320, 40%, 70%);
-  padding-left: 5px;
+  border-left: 8px solid hsl(320, 40%, 70%);
+  margin-top: 2em;
+  padding-left: 8px;
 }
 #content h4 {
-  border-left: 20px solid hsl(320, 40%, 90%);
+  border-left: 16px solid hsl(320, 40%, 90%);
   padding-left: 5px;
 }
 
