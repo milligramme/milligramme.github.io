@@ -45,10 +45,10 @@ googleAnalytics = "Your Google Analytics tracking ID"
   
   dateFormat = "2006-01-02 15:04"
   
-  []
-  # Set local working dir to edit with TextMate
-  # This work under Development Mode
-  workingdir = "/path/to/hugo/content"
+  [params.dev]
+    # Set local working dir to edit with TextMate
+    # This work under Development Mode
+    workingdir = "/path/to/hugo/content"
 
   [params.social]
     twitter = "#"
@@ -80,21 +80,33 @@ googleAnalytics = "Your Google Analytics tracking ID"
 [menu]
   # Shown in the side menu.
   [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    pre = "<i class='fa fa-file-text-o fa-fw'></i>"
     weight = 1
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 1
+    weight = 2
     identifier = "tags"
     url = "/tags/"
   [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
+    name = "categories"
+    pre = "<i class='fa fa-folder-o fa-fw'></i>"
     weight = 2
+    identifier = "categories"
+    url = "/categories/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-smile-o fa-fw'></i>"
+    weight = 3
     identifier = "about"
     url = "/about/"
 
