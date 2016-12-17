@@ -191,7 +191,6 @@ body > footer {
   padding: 25px;
 }
 #copyrights {
-  padding-bottom: 60px;
   line-height: 1.5em;
   text-align: center;
 }
@@ -291,9 +290,11 @@ ul.list li time{
 
 
 #rewind {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(320, 100%, 70%);
+  padding: 5px 10px 5px;
   position: fixed;
-  left: 15px;
-  bottom: 15px;
+  bottom: 60px;
 }
 
 /*
