@@ -14,6 +14,16 @@ title = "Hugo syntaxhighlight test"
 
 CDN経由の highlight.js でよみこまれない言語のうち以下を追加
 
+```html
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/yaml.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/applescript.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/processing.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/scss.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/haml.min.js"></script>
+
+```
+
 ### Golang
 
 ```go
@@ -23,71 +33,6 @@ import "fmt"
 func main() {
     fmt.Println("hello world")
 }
-```
-
-### AppleScript
-
-```applescript
-tell application "Finder"
-  -- hello
-  activate
-  display dialog "Hello World."
-end tell
-```
-
-### Processing
-
-test.pde
-
-```processing
-import processing.video.*;
-
-Capture video;
-void setup() {
-  size(600, 480);
-  video = new Capture(this, 640, 480, 30);
-  video.start();
-}
-void captureEvent(Capture video) {
-  video.read();
-}
-void draw () {
-  background(0);
-  image(video, random(width), 0, random(width), random(height));
-}
-```
-
-### HAML
-
-```haml
-%section.container
-  %h1= post.title
-  %h2= post.subtitle
-  .content
-    = post.content
-```
-
-### SCSS
-
-```scss
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
-
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-}
-```
-
-sassには対応してない
-
-```scss
-$font-stack: Helvetica, sans-serif
-$primary-color: #333
-
-body
-  font: 100% $font-stack
-  color: $primary-color
 ```
 
 ### YAML
@@ -122,3 +67,69 @@ comments: >
     Backup contact is Nancy
     Billsmer @ 338-4338.
 ```
+
+### AppleScript
+
+```applescript
+tell application "Finder"
+  -- hello
+  activate
+  display dialog "Hello World."
+end tell
+```
+
+### Processing
+
+test.pde
+
+```processing
+import processing.video.*;
+
+Capture video;
+void setup() {
+  size(600, 480);
+  video = new Capture(this, 640, 480, 30);
+  video.start();
+}
+void captureEvent(Capture video) {
+  video.read();
+}
+void draw () {
+  background(0);
+  image(video, random(width), 0, random(width), random(height));
+}
+```
+
+### SCSS
+
+```scss
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+```
+
+sassには対応してない
+
+```scss
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+```
+
+### HAML
+
+```haml
+%section.container
+  %h1= post.title
+  %h2= post.subtitle
+  .content
+    = post.content
+```
+

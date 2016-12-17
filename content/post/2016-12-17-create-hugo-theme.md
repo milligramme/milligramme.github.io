@@ -5,7 +5,7 @@ description = ""
 tags = [
 "hugo", "golang"
 ]
-date = "2016-12-16T10:07:05+09:00"
+date = "2016-12-17T10:07:05+09:00"
 categories = [
 ]
 draft = true
@@ -50,7 +50,7 @@ CDN経由だと、主要な22の言語にしか対応していないので、別
 
 [Hugo に全文検索を取り付けた \| the right stuff](http://rs.luminousspice.com/hugo-site-search/)
 
-を参考に、サイト全体のjsonを生成して、インクリメントサーチ
+を参考に、サイト全体のjsonを生成して、jsでインクリメントサーチする。
 
 
 ### アイコンフォント
@@ -60,12 +60,12 @@ CDN経由だと、主要な22の言語にしか対応していないので、別
 
 ## はまりどころ
 
-### list.htmlがエラーになる
+### list.htmlだとエラーになる
 
 `layoutes/_default/list.html` がどうしてもエラーになってしまう
 
 [Only layouts/\_default/list\.html will work for my post section \- support \- Hugo Discussion](https://discuss.gohugo.io/t/only-layouts--default-list-html-will-work-for-my-post-section/1491)
 
-[Hugo \- Content Views](http://gohugo.io/templates/views/)
+[Hugo \- Content Views](http://gohugo.io/templates/views/#li-html)
 
 li.html にするべきらしい
