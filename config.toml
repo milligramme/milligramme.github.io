@@ -50,6 +50,7 @@ googleAnalytics = "UA-20033906-2"
     pinboard = "milligramme"
     slideshare = "milligramme"
     speakerdeck = "milligramme"
+    amazon = "amzn.asia/5DvPEOK"
     
   [params.adsense]
     mobile_anchor = "adsense/mobile_anchor_adv"
@@ -57,6 +58,12 @@ googleAnalytics = "UA-20033906-2"
     responsive2 = "adsense/responsive_adv2"
   
 [menu]
+  [[menu.main]]
+    name = "home"
+    pre = "<i class='fa fa-bath fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
   [[menu.main]]
     name = "posts"
     pre = "<i class='fa fa-file-text-o fa-fw'></i>"

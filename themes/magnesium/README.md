@@ -70,8 +70,11 @@ googleAnalytics = "Your Google Analytics tracking ID"
     pinboard = "pinboard"
     slideshare = "#"
     speakerdeck = "#"
+    amazon = "amzn.asia/#"
 
   [params.adsense]
+    # optional
+    # add these html-files in <your_blog_root>/layouts/partials/adsense
     # mobile_anchor = "adsense/mobile_anchor_adv"
     # responsive1 = "adsense/responsive_adv1"
     # responsive2 = "adsense/responsive_adv2"
