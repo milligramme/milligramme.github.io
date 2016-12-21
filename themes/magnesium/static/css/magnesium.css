@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   color: hsl(20, 10%, 20%);
 }
 a:link {
@@ -38,7 +39,7 @@ img {
 /*base*//*base*//*base*/
 
 #layout {
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0px auto;
   padding: 0 10px 10px;
 }
@@ -104,10 +105,10 @@ header > h2 {
 #content-bottom {
   padding-top:10px;
 }
+
 /*
   menu
 */
-
 #brand {
   background-color: hsl(20, 80%, 10%);
   padding: 0;
@@ -134,9 +135,14 @@ header > h2 {
   color: hsl(0, 0%, 90%);
   left: 0;
 }
+@media (min-width: 64em) {
+  #menu:focus:before,
+  #menu:hover:before {
+    content: "";
+  }
+}
 
 #search {
-/*  background-color: hsl(20, 10%, 90%);*/
   text-align: left;
   padding-left: 7px;
   padding-right: 7px;
