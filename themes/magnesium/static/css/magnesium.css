@@ -186,10 +186,16 @@ article > .summary {
   font-size: .8em;
   padding: .5em 2em;
 }
-
+/*
+  summary
+*/
 h2.summary {
   text-align: left;
 }
+p.summary {
+  overflow-wrap: break-word;
+}
+
 /*
   body child
 */
