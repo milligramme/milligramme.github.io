@@ -15,3 +15,10 @@ draft = true
 [Hugo \- Automated deployments with Wercker](https://gohugo.io/tutorials/automated-deployments/)
 
 https://milligramme.github.io はすでに middleman-blog が
+
+ためしに gitlab.ioをためす。
+
+CI不良でそのままbuild＆deployしてくれる
+
+bitbucket.org
+
