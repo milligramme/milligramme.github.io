@@ -314,9 +314,6 @@ xl  @media screen and (min-width: 80em)  ≥ 1280px  .pure-u-xl-*
   #search {
     text-align: right;
   }
-  #social {
-    padding:1em 5em;
-  }
 
   header {
     padding: 0 2em;
