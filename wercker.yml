@@ -1,0 +1,8 @@
+box: golang:latest
+
+build:
+    steps:
+        - arjen/hugo-build:
+            version: "HEAD"
+            config: config.toml
+            disable_pygments: true
