@@ -158,11 +158,11 @@ input#q {
 
 
 #social {
-  background-color: hsl(20, 10%, 90%);
-  padding:1em .5em;
+  margin: 1em;
+  padding: .5em;
 }
 #social div {
-  padding: .5em 0;
+  padding: .2em 0;
 }
 
 
@@ -314,7 +314,7 @@ xl  @media screen and (min-width: 80em)  ≥ 1280px  .pure-u-xl-*
     text-align: right;
   }
   #social {
-    padding:1em 5em;
+/*    padding:1em 5em;*/
   }
 
   header {
