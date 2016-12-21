@@ -139,6 +139,7 @@ header > h2 {
 /*  background-color: hsl(20, 10%, 90%);*/
   text-align: left;
   padding-left: 7px;
+  padding-right: 7px;
 }
 input#q {
   display: inline-block;
@@ -314,7 +315,7 @@ xl  @media screen and (min-width: 80em)  ≥ 1280px  .pure-u-xl-*
     text-align: right;
   }
   #social {
-/*    padding:1em 5em;*/
+    padding:1em 5em;
   }
 
   header {
