@@ -10,6 +10,7 @@ hasCJKLanguage = true
 paginate = 10
 
 googleAnalytics = "UA-20033906-2"
+disqusShortname = "mgnote"
 
 [indexes]
   tag = "tags"

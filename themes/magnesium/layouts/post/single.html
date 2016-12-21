@@ -20,7 +20,7 @@
     <div id="content">
       {{ .Content }}
     </div>
-    
+    {{ template "_internal/disqus.html" . }}
     {{ partial "prev_next_post" . }}
 
   </div>
