@@ -1,4 +1,5 @@
 baseurl = "https://milligramme.gitlab.io/note/"
+# baseurl = "https://milligramme.github.io/"
 languageCode = "ja-JP"
 title = "mg:note"
 theme = "magnesium"
