@@ -301,7 +301,8 @@ ul.list li time{
   background-color: hsl(320, 100%, 70%);
   padding: 5px 10px 5px;
   position: fixed;
-  bottom: 60px;
+  right: 0;
+  bottom: 72px;
 }
 
 /*

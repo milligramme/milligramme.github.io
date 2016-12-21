@@ -2,7 +2,7 @@ $(function(){
   var goto_top_btn = $("a#rewind");
   goto_top_btn.fadeOut(800);
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 250) {
+    if ($(this).scrollTop() > 320) {
       goto_top_btn.fadeIn();
     }
     else {
