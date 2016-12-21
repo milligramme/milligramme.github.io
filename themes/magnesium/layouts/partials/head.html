@@ -12,9 +12,19 @@
   <meta name="twitter:title" content="{{ .Site.Title }}" />
   <meta name="twitter:description" content="{{ .Site.Params.description }}" />
   <link rel="stylesheet" href="/css/normalize.css">
-  {{"<!-- Pure -->" | safeHTML }}{{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/" }}
-  <link rel="stylesheet" href="{{ $purecss }}pure-min.css">
+  {{"<!-- Pure -->" | safeHTML }}{{ $purecss := "https://unpkg.com/purecss@0.6.1/build/" }}
+  <link rel="stylesheet" href="{{ $purecss }}pure-min.css"
+    integrity="sha384-CCTZv2q9I9m3UOxRLaJneXrrqKwUNOzZ6NGEUMwHtShDJ+nCoiXJCAgi05KfkLGY"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="{{ $purecss }}grids-responsive-min.css">
+  
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="{{ $purecss }}/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="{{ $purecss }}/grids-responsive-min.css">
+  <!--<![endif]-->
+  
   {{"<!-- Google Fonts -->" | safeHTML }}
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
   {{"<!-- Font Awesome -->" | safeHTML }}
