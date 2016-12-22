@@ -14,7 +14,7 @@ draft = true
 
 ## Hugoのテーマを作る
 
-公式のドキュメントをみて大体わかる
+公式のドキュメントをみてつくってみた
 
 - [Hugo \- Creating a Theme](https://gohugo.io/themes/creation/)
 - [Hugo \- Customizing a Theme](https://gohugo.io/themes/usage)
@@ -22,16 +22,16 @@ draft = true
 
 基本方針は
 
-- レスポンシブデザイン
+- グリッドシステム
 - シンタックスハイライト
 - 検索機能
 - アイコンフォント
 
-### レスポンシブデザイン
+### グリッドシステム
 
 [Pure](http://purecss.io/) をつかう
 
-5または24分割で指定するグリッドシステム
+5または24分割で指定するグリッドシステム、その他、ボタンなどが少々ある。
 
 
 ### シンタックスハイライト
@@ -62,7 +62,7 @@ CDN経由だと、主要な22の言語にしか対応していないので、別
 
 ### list.htmlだとエラーになる
 
-`layoutes/_default/list.html` がどうしてもエラーになってしまう
+`layouts/_default/list.html` がどうしてもエラーになってしまう
 
 [Only layouts/\_default/list\.html will work for my post section \- support \- Hugo Discussion](https://discuss.gohugo.io/t/only-layouts--default-list-html-will-work-for-my-post-section/1491)
 

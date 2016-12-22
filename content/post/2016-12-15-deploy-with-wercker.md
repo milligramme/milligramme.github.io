@@ -1,6 +1,6 @@
 +++
 outdated = false
-title = "Hugo-blogをWercket経由でGitHub Pagesにデプロイする"
+title = "Hugo-blogをGitLab Pagesにデプロイする"
 description = ""
 tags = [
 "hugo","wercker", "deploy"
@@ -12,13 +12,32 @@ draft = true
 
 +++
 
+Hugoを github pagesにデプロイする前に
+
 [Hugo \- Automated deployments with Wercker](https://gohugo.io/tutorials/automated-deployments/)
 
-https://milligramme.github.io はすでに middleman-blog が
+themeを調整したりするため、gitlab pages をためす。
 
-ためしに gitlab.ioをためす。
+[Hosting on GitLab\.com with GitLab Pages \| GitLab](https://about.gitlab.com/2016/04/07/gitlab-pages-setup/)
 
-CI不良でそのままbuild＆deployしてくれる
+.gitlab-ci.yml
 
-bitbucket.org
+```yaml
+image: publysher/hugo
+
+pages:
+    script:
+        - hugo
+    artifacts:
+        paths:
+          - public
+    only:
+        - master
+```
+
+
+
+Werckerいらずで、リポジトリにプッシュすると、そのまま build＆deploy してくれる
+
+https://username.gitlab.io のようなurlになる
 
