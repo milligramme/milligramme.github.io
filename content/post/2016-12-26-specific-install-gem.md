@@ -21,7 +21,7 @@ TextMateのtmbundleでCJK文字のヘッダーが正常に表現できない件
 
 [with\_toc\_data with Japanese · Issue \#538 · vmg/redcarpet](https://github.com/vmg/redcarpet/issues/538#issuecomment-259325915)
 
-アップデートしようとしたら、 `gem update redcarpet` しても v3.4.0 が入らない。
+アップデートしようとしたら、まだ最新版に更新されてないようで `gem update redcarpet` しても v3.4.0 が入らない。
 
 bundler だと `github:` オプションで指定ができるが、`gem install` でnpmのように githubのリポジトリを指定してインストールする方法がないかしらべた。
 
@@ -74,6 +74,4 @@ Successfully installed
 
 redcarpet (3.4.0, 3.3.4)
 ```
-
-
 

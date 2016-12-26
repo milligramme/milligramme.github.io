@@ -1,17 +1,15 @@
 +++
 outdated = false
 date = "2016-12-21T21:57:27+09:00"
-title = "aerobatic bitbucket addon"
+title = "aerobatic bitbucket addonでbitbucket pagesを作成"
 description = ""
-tags = ["hugo","bitbucket"
+tags = ["hugo","bitbucket","bitbucketpages"
 ]
 categories = [
 ]
 draft = false
 
 +++
-
-
 
 bitbucket-pages + hugo + wercker を試そうと [Hugo Continuous Integration With Wercker And Bitbucket](https://www.aerobatic.com/blog/hugo-continuous-integration-with-wercker-aerobatic-and-bitbucket) をみてたら、デフォルトで hugoサポートされたので不要っぽい記述があった。
 
@@ -37,10 +35,10 @@ aerobatic-bitbucket-addon というアドオンを利用する。
 }
 ```
 
-username.bitbucket.org でなく username.aerobatic.io にデプロイしてくれる。
+[username].bitbucket.org でなく [username].aerobatic.io にデプロイしてくれる。
 
 
-hugoのバージョンが0.16なので、min_ver = 0.17 のテーマが使えなかった
+hugoのバージョンが0.16なので、min_ver = 0.17 のテーマが使えなかった。
 
 ![2016 12 21 Aerobatic Log](/images/2016-12-21-aerobatic-log.png)
 
