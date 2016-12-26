@@ -41,7 +41,6 @@ img {
 #layout {
   max-width: 1024px;
   margin: 0px auto;
-  padding: 0 10px 10px;
 }
 
 
@@ -125,7 +124,12 @@ header > h2 {
 }
 
 #menu {
-  padding-left: 1em;
+  padding-left: 0;
+}
+@media (min-width: 64em) {
+  #menu {
+    padding-left: 1em;
+  }
 }
 #menu:focus:before,
 #menu:hover:before {
