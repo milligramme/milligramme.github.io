@@ -7,7 +7,7 @@ tags = ["hugo","bitbucket"
 ]
 categories = [
 ]
-draft = true
+draft = false
 
 +++
 
@@ -45,6 +45,4 @@ hugoのバージョンが0.16なので、min_ver = 0.17 のテーマが使えな
 ![2016 12 21 Aerobatic Log](/images/2016-12-21-aerobatic-log.png)
 
 フリープランは１日５デプロイで2サイト1ドメインまで https://www.aerobatic.com/pricing/
-
----
 

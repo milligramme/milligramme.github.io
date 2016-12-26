@@ -1,5 +1,5 @@
 +++
-title = "middleman-blogをweckerでデプロイ"
+title = "middleman-blogをwerckerでデプロイ"
 date = "2016-01-19T00:00:00+09:00"
 tags = ["middleman", "wercker", "deploy"]
 +++
@@ -10,7 +10,7 @@ middleman-deploy もいいが、buildに結構時間がとられるので、
 travis-ciのときのように
 srcブランチにpushしたら、masterにデプロイしてくれるようになる。
 
-wrecker.yml を作成（softtab: 4 でないと動作しない）
+wercker.yml を作成（softtab: 4 でないと動作しない）
 
 ```yml
 box: wercker/rvm

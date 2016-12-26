@@ -3,12 +3,12 @@ outdated = false
 title = "Hugo-blogをGitLab Pagesにデプロイする"
 description = ""
 tags = [
-"hugo","wercker", "deploy"
+"hugo","wercker", "deploy","gitlabpages"
 ]
 date = "2016-12-15T20:07:05+09:00"
 categories = [
 ]
-draft = true
+draft = false
 
 +++
 
@@ -20,7 +20,7 @@ themeを調整したりするため、gitlab pages をためす。
 
 [Hosting on GitLab\.com with GitLab Pages \| GitLab](https://about.gitlab.com/2016/04/07/gitlab-pages-setup/)
 
-.gitlab-ci.yml
+.gitlab-ci.yml を作成しておくと
 
 ```yaml
 image: publysher/hugo
@@ -37,7 +37,7 @@ pages:
 
 
 
-Werckerいらずで、リポジトリにプッシュすると、そのまま build＆deploy してくれる
+Werckerいらずで、リポジトリにpushすると、そのまま build＆deploy してくれる。
 
-https://username.gitlab.io のようなurlになる
+https://[username].gitlab.io のようなurlになる
 

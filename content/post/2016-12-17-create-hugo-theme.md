@@ -1,6 +1,6 @@
 +++
 outdated = false
-title = "Hugoテーマを作る"
+title = "Hugoテーマを作った"
 description = ""
 tags = [
 "hugo", "golang"
@@ -8,7 +8,7 @@ tags = [
 date = "2016-12-17T10:07:05+09:00"
 categories = [
 ]
-draft = true
+draft = false
 
 +++
 
