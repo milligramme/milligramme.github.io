@@ -9,7 +9,7 @@ categories = []
 
 +++
 
-[MikeMcQuaid/GitHub\-Markdown\.tmbundle](https://github.com/MikeMcQuaid/GitHub-Markdown.tmbundle) でCJK文字のヘッダーが正常に表現できない件が、redcarpetのv3.4.0のアップデートで直った。
+[MikeMcQuaid/GitHub\-Markdown\.tmbundle](https://github.com/MikeMcQuaid/GitHub-Markdown.tmbundle) でCJK文字のヘッダが正常に表現できない件が、redcarpetのv3.4.0のアップデートで直った。
 
 [Convert to HTML fail when header is only CJK characters · Issue \#16 · MikeMcQuaid/GitHub\-Markdown\.tmbundle](https://github.com/MikeMcQuaid/GitHub-Markdown.tmbundle/issues/16)
 
