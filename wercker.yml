@@ -1,6 +1,7 @@
 box: debian
 build:
   steps:
+    - wercker/add-to-known_hosts@2.0.1
     - arjen/hugo-build:
         version: "0.14"
         theme: magnesium
