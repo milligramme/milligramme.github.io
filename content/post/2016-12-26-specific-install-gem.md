@@ -1,29 +1,21 @@
 +++
 date = "2016-12-26T09:43:47+09:00"
-title = "specific_installでgithubリポジトリ指定してインストール"
+title = "specific_installでgithubリポジトリを指定してgemをインストール"
 description = ""
-tags = [
+tags = ["github","ruby"
 ]
-categories = ["gem"
+categories = [
 ]
 draft = false
 outdated = false
 
 +++
 
-TextMateのtmbundleでCJK文字のヘッダーが正常に表現できない件
-
-[Convert to HTML fail when header is only CJK characters · Issue \#16 · MikeMcQuaid/GitHub\-Markdown\.tmbundle](https://github.com/MikeMcQuaid/GitHub-Markdown.tmbundle/issues/16)
-
-
-上流の redcarpet が修正したっぽいので
-
+redcarpetのアップデートしようとしたら、まだ最新版に更新されてないようで `gem update redcarpet` しても v3.4.0 が入らない。
 
 [with\_toc\_data with Japanese · Issue \#538 · vmg/redcarpet](https://github.com/vmg/redcarpet/issues/538#issuecomment-259325915)
 
-アップデートしようとしたら、まだ最新版に更新されてないようで `gem update redcarpet` しても v3.4.0 が入らない。
-
-bundler だと `github:` オプションで指定ができるが、`gem install` でnpmのように githubのリポジトリを指定してインストールする方法がないかしらべた。
+bundler だと `github:` オプションで指定ができるが、諸事情で `gem install` でnpmのように githubのリポジトリを指定してインストールする方法がないかしらべた。
 
 
 [rdp/specific\_install: rubygems plugin to allow you to install an "edge" gem straight from its github repository](https://github.com/rdp/specific_install)
@@ -74,4 +66,3 @@ Successfully installed
 
 redcarpet (3.4.0, 3.3.4)
 ```
-

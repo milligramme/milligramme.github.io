@@ -1,5 +1,5 @@
 +++
-title = "JSONをparseする時に symboize_namesオプションを使う"
+title = "JSONをparseする時に symbolize_namesオプションを使う"
 date = "2016-12-09T09:47:03+09:00"
 description = ""
 tags = ["ruby","json"
