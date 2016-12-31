@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.17"
+        version: HEAD
         config: config.toml
         disable_pygments: true
 deploy:
