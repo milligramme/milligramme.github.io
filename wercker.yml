@@ -5,6 +5,7 @@ build:
         version: "0.17"
         config: config.toml
         disable_pygments: true
+        prod_branches: master
 deploy:
   steps:
     - install-packages:
