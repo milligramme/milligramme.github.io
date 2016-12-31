@@ -1,5 +1,4 @@
 box: debian
-
 build:
     steps:
         - arjen/hugo-build:
@@ -7,7 +6,6 @@ build:
             config: config.toml
             disable_pygments: true
 deploy:
-  
     steps:
         - install-packages:
             packages: git ssh-client
