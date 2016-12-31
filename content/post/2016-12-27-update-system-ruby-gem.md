@@ -2,7 +2,7 @@
 date = "2016-12-27T09:54:33+09:00"
 tags = ["textmate","ruby"]
 description = ""
-title = "Github-Markdown.tmbundleでCJKのヘッダを使えるようする"
+title = "Github-Markdown.tmbundleでCJKのヘッダを使えるようにする"
 outdated = false
 draft = false
 categories = []
