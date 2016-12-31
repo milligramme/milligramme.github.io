@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.14"
-        theme: magnesium
+        config: config.toml
         disable_pygments: true
 deploy:
   steps:
