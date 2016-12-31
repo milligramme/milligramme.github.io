@@ -4,7 +4,7 @@ tags = ["textmate","ruby"]
 description = ""
 title = "Github-Markdown.tmbundleでCJKのヘッダを使えるようする"
 outdated = false
-draft = true
+draft = false
 categories = []
 
 +++
