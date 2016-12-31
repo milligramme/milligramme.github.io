@@ -13,4 +13,3 @@ deploy:
         token: $GIT_TOKEN
         repo: milligramme/milligramme.github.io
         basedir: public
-        branch: master
