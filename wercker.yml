@@ -1,15 +1,15 @@
 box: debian
 build:
-    steps:
-        - arjen/hugo-build:
-            version: "0.14"
-            theme: magnesium
-            disable_pygments: true
+  steps:
+    - arjen/hugo-build:
+        version: "0.14"
+        theme: magnesium
+        disable_pygments: true
 deploy:
-    steps:
-        - install-packages:
-            packages: git ssh-client
-        - lukevivier/gh-pages@0.2.1:
-            token: $GIT_TOKEN
-            repo: milligramme/milligramme.github.io
-            basedir: public
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        repo: milligramme/milligramme.github.io
+        basedir: public
