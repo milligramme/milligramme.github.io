@@ -496,9 +496,9 @@ github_pages_url.each do |path|
     f.print ERB.new(reflesh_template).result(binding)
   end
   
-  FileUtils.mkpath(File.join(dist_dir, post_url))
+  FileUtils.mkpath(File.join(dist_dir, "post", post_url))
   # hugo style
-  File.open(File.expand_path(File.join(dist_dir, post_url, "index.html")), "wb") do |f|
+  File.open(File.expand_path(File.join(dist_dir, "post", post_url, "index.html")), "wb") do |f|
     f.print ERB.new(reflesh_template).result(binding)
   end
 end
